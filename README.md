@@ -49,7 +49,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/kifle23/Hello-Microverse)
+- [Live Demo Link](https://github.com/kifle23/Portfolio-setup-and-mobile-first/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,7 +103,11 @@ To run the project, execute the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+### Run tests <a name="run-tests"></a>
+
+No tests here... 💯
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
