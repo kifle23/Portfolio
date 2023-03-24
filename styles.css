@@ -239,10 +239,9 @@ li {
   font-family: 'Crete Round', serif;
 }
 
-.card-heading > p {
+.card-heading + p {
   width: 327px;
   height: 147px;
-  text-align: center;
   color: #091e42;
   font-size: 16px;
   font-weight: 400;
@@ -268,7 +267,7 @@ li {
   font-family: 'Inter', serif;
 }
 
-.projects input[type=button] {
+.projects {
   height: 48px;
   width: 124px;
   left: 0;
@@ -282,6 +281,23 @@ li {
   font-weight: bold;
   line-height: 24px;
   font-family: 'Inter', serif;
+}
+
+.projects:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.projects:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.projects:disabled {
+  border: 1px solid transparent;
+  color: #5b5957;
+  background-color: #f4f1f0;
 }
 
 .card-heading-white {
@@ -320,7 +336,7 @@ li {
   max-width: 250px;
 }
 
-.skills-details input[type=button] {
+.skills-details li {
   padding: 10px 12px;
   margin: 12px 2px 22px 13px;
   height: 40px;
@@ -333,7 +349,7 @@ li {
   color: #fff;
 }
 
-.projects-details input[type=button] {
+.project-details {
   margin: 0;
   height: 48px;
   width: 327px;
@@ -348,9 +364,25 @@ li {
   font-family: 'Inter', serif;
 }
 
+.project-details:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.project-details:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.project-details:disabled {
+  border: 1px solid transparent;
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
 /* About me Section */
 .about-section {
-  margin-top: 120px;
   padding-bottom: 120px;
   padding-top: 120px;
   background-color: #1c1a19;
@@ -400,6 +432,15 @@ li {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+.about-introduction-content + p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
 }
 
 .my-resume-button {
