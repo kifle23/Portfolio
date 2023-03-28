@@ -202,10 +202,10 @@
                     chat please get in touch.
                 </h2>
             </div>
-            <form>
-                <input type="text" id="form-name" name="fullName" placeholder="Full name">
-                <input type="email" name="email" placeholder="Email">
-                <textarea name="message" id="form-message" placeholder="Write me something..."></textarea>
+            <form action="https://formspree.io/f/mdovlqop" method="POST">
+                <input type="text" id="form-name" name="fullName" placeholder="Full name" maxlength="30" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" id="form-message" placeholder="Write me something..." maxlength="500" required></textarea>
                 <button type="submit" class="project-details btn-contact">Get in touch</button>
             </form>
         </div>
