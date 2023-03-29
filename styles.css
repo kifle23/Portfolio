@@ -208,7 +208,7 @@ li {
 }
 
 .img-three {
-  background-image: url("/images/portfolio/card-three.png");
+  background: url("/images/portfolio/card-three.png");
 }
 
 .img-four {
