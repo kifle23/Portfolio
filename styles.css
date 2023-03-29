@@ -200,7 +200,7 @@ li {
 }
 
 .img-one {
-  background: url(Images/portfolio/card-one.svg) no-repeat;
+  background-image: url(Images/portfolio/card-one.svg);
 }
 
 .img-two {
@@ -208,23 +208,23 @@ li {
 }
 
 .img-three {
-  background: url(Images/portfolio/card-three.svg) no-repeat;
+  background-image: url(Images/portfolio/card-three.svg);
 }
 
 .img-four {
-  background: url(Images/portfolio/card-four.svg) no-repeat;
+  background-image: url(Images/portfolio/card-four.svg);
 }
 
 .img-five {
-  background: url(Images/portfolio/card-five.svg) no-repeat;
+  background-image: url(Images/portfolio/card-five.svg);
 }
 
 .img-six {
-  background: url(Images/portfolio/card-six.svg) no-repeat;
+  background-image: url(Images/portfolio/card-six.svg);
 }
 
 .img-seven {
-  background: url(Images/portfolio/card-seven.svg) no-repeat;
+  background-image: url(Images/portfolio/card-seven.svg);
 }
 
 .card-hedaing {
