@@ -536,7 +536,7 @@ textarea::placeholder {
   background-color: #f4f1f0;
 }
 
-.about-introduction-content+p {
+.about-introduction-content + p {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
