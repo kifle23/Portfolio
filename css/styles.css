@@ -251,11 +251,6 @@ li {
   text-align: left;
 }
 
-/* .cards p {
-  padding-top: 24px;
-  padding-bottom: 12px;
-} */
-
 .skills {
   display: flex;
   flex-direction: row;
@@ -307,11 +302,26 @@ li {
   font-family: 'Inter', serif;
 }
 
+#hover-content #dark-hover * {
+  display: none;
+}
+
+#hover-content #img-hover * {
+  display: block;
+}
+
+#hover-content:hover #dark-hover * {
+  display: block;
+}
+
+#hover-content:hover #img-hover * {
+  display: none;
+}
+
 .projects:hover {
   border: 1px solid #f55800;
   background-color: #fff5e1;
   color: #f55800;
-  transition: all 0.4s ease-in-out;
 }
 
 .projects:active {
@@ -329,6 +339,11 @@ li {
   display: flex;
   flex-direction: row;
   max-width: 250px;
+}
+
+.hr-dis {
+  display: flex !important;
+  flex-direction: row !important;
 }
 
 .skills-details li {
@@ -363,7 +378,6 @@ li {
   border: 1px solid #f55800;
   background-color: #fff5e1;
   color: #f55800;
-  transition: all 0.4s ease-in-out;
 }
 
 .project-details:active {

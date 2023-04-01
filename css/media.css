@@ -27,7 +27,6 @@
 
   .nav li a:hover {
     color: #e05304;
-    transition: all 0.3s;
   }
 
   .contact-icon {
@@ -61,13 +60,27 @@
   .image-icons-header {
     display: flex;
     flex-direction: column-reverse;
-    gap: 20px;
-    padding: 16% 2% 251px 2%;
+    gap: 18px;
+    padding: 24% 2% 251px 36px;
   }
 
   .headline_section h1 {
     font-size: 72px;
     line-height: 81px;
+    margin: 12px 0 12px 50px;
+  }
+
+  .h4 {
+    width: 45.3%;
+    height: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+    margin: 12px 0 12px 50px;
   }
 
   .p {
@@ -77,8 +90,10 @@
     font-size: 20px;
     line-height: 32px;
     padding-bottom: 251px;
-    width: 39.3%;
+    margin: 12px 0 12px 50px;
+    width: 45.3%;
     color: #f4f5f7;
+    margin-top: 12px;
   }
 
   .recent {
@@ -163,8 +178,12 @@
   }
 
   .about-introduction-content {
-    margin: 0 80px;
     width: 60%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 142px;
+    gap: 1rem 10rem;
+    z-index: 1;
   }
 
   .about-introduction-content p {
@@ -173,7 +192,8 @@
 
   .about-myself {
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 142px;
     gap: 0 10rem;
     z-index: 1;
   }
@@ -186,7 +206,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 0 24px;
-    margin: 0 50px;
+    margin-left: 135px;
   }
 
   #contact-me h2 {
@@ -231,7 +251,7 @@
   }
 
   .img-one {
-    background-image: url(../Images/portfolio/card-one.png);
+    background-image: url(../Images/portfolio/card-two.png);
   }
 
   .img-two {
