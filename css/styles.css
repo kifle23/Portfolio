@@ -335,6 +335,10 @@ li {
   background-color: #f4f1f0;
 }
 
+.project-details:hover{
+  transition: all 0.4s ease-in-out;
+}
+
 .skills-details {
   display: flex;
   flex-direction: row;
