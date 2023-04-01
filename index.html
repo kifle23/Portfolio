@@ -4,6 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
     <link rel="icon" type="image/x-icon" href="Images/favicon.ico" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -79,10 +109,10 @@
               dummy text.
             </p>
             <div class="skills">
-              <input type="button" value="CSS" />
-              <input type="button" value="HTML" />
-              <input type="button" value="Bootstrap" />
-              <input type="button" value="Ruby" />
+              <button type="button">CSS</button>
+              <button type="button">HTML</button>
+              <button type="button">Bootstrap</button>
+              <button type="button">Ruby</button>
             </div>
             <button class="projects" type="button">See project</button>
           </div>
@@ -90,23 +120,15 @@
       </div>
     </section>
     <section class="card-section">
-      <div class="cards">
-        <div class="card-item">
-          <h1>Profesional Art Printing Data</h1>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-          <ul class="skills-details">
-            <li>HTML</li>
-            <li>Bootstrap</li>
-            <li>Ruby</li>
-          </ul>
-          <button class="project-details" type="button">See project</button>
+      <div class="cards rel-pos">
+        <div class="img img-one rel-pos">
+          <button class="project-details btn-pos" type="button">
+            See project
+          </button>
         </div>
       </div>
       <div class="cards">
-        <div class="card-item">
+        <div class="img img-two">
           <h1>Profesional Art Printing Data</h1>
           <p>
             A daily selection of privately personalized reads; no accounts or
@@ -117,11 +139,10 @@
             <li>Bootstrap</li>
             <li>Ruby</li>
           </ul>
-          <button class="project-details" type="button">See project</button>
         </div>
       </div>
       <div class="cards">
-        <div class="card-item">
+        <div class="img img-three">
           <h1>Profesional Art Printing Data</h1>
           <p>
             A daily selection of privately personalized reads; no accounts or
@@ -132,11 +153,10 @@
             <li>Bootstrap</li>
             <li>Ruby</li>
           </ul>
-          <button class="project-details" type="button">See project</button>
         </div>
       </div>
       <div class="cards">
-        <div class="card-item">
+        <div class="img img-four">
           <h1>Profesional Art Printing Data</h1>
           <p>
             A daily selection of privately personalized reads; no accounts or
@@ -147,11 +167,10 @@
             <li>Bootstrap</li>
             <li>Ruby</li>
           </ul>
-          <button class="project-details" type="button">See project</button>
         </div>
       </div>
       <div class="cards">
-        <div class="card-item">
+        <div class="img img-five">
           <h1>Profesional Art Printing Data</h1>
           <p>
             A daily selection of privately personalized reads; no accounts or
@@ -162,11 +181,10 @@
             <li>Bootstrap</li>
             <li>Ruby</li>
           </ul>
-          <button class="project-details" type="button">See project</button>
         </div>
       </div>
       <div class="cards">
-        <div class="card-item">
+        <div class="img img-six">
           <h1>Profesional Art Printing Data</h1>
           <p>
             A daily selection of privately personalized reads; no accounts or
@@ -177,33 +195,21 @@
             <li>Bootstrap</li>
             <li>Ruby</li>
           </ul>
-          <button class="project-details" type="button">See project</button>
         </div>
       </div>
     </section>
     <!-- ----------------------About section----------------->
     <section id="about-section" class="about-section">
-      <div class="about-introduction">
-        <div class="about-introduction-content">
-          <h1 class="about-heading">About me</h1>
-          <p>
-            Hello I'm a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don't
-            hesitate to contact me.
-          </p>
-          <a
-            href="https://www.linkedin.com/in/kifle-haile-5a613761/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button class="my-resume-button" id="resume-button" type="button">
-              Get My Resume
-            </button>
-          </a>
-        </div>
-        <div class="background-graphic"></div>
+      <div class="about-introduction-content">
+        <h1 class="about-heading">About me</h1>
+        <p>
+          Hey there! I can help you build a product, feature or website. Look
+          through some of my work and experience! If you like what you see and
+          have a project you need coded, don't hesitate to contact me.
+        </p>
+        <button class="my-resume-button" type="button">Get My Resume</button>
       </div>
+      <div class="background-graphic"></div>
       <hr class="horizontal-seperator-on-dark" />
       <div class="about-myself">
         <div class="language-section">

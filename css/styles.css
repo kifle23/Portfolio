@@ -33,6 +33,16 @@ header {
   margin-right: 100px;
 }
 
+.btn-pos {
+  position: absolute !important;
+  bottom: 0 !important;
+  width: 100% !important;
+}
+
+.rel-pos {
+  position: relative !important;
+}
+
 .nav {
   display: none;
 }
@@ -102,7 +112,7 @@ li {
   font-size: 24px;
   line-height: 32px;
   align-items: center;
-  color: #fff5e1;
+  color: #fff;
   flex: none;
   flex-grow: 0;
   margin-top: 12px;
@@ -111,13 +121,12 @@ li {
 
 .p {
   width: 87.2%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  flex: none;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f4f5f7;
   order: 2;
   flex-grow: 0;
   margin-top: 0;
@@ -142,7 +151,8 @@ li {
   flex-direction: column;
   gap: 10px;
   width: 100%;
-  padding: 30px;
+
+  /* padding: 30px; */
 }
 
 .recent h2 {
@@ -192,7 +202,8 @@ li {
   gap: 10px;
   align-items: center;
   margin-bottom: 300px;
-  padding: 20px;
+
+  /* padding: 20px; */
 }
 
 .cards {
@@ -204,9 +215,10 @@ li {
   align-items: center;
   justify-content: center;
   color: #fff;
+  height: 435px;
 }
 
-.card-item {
+.img {
   display: grid;
   height: 386px;
   background-image: url(../Images/portfolio/card-three.svg);
@@ -214,38 +226,55 @@ li {
   background-size: 375px;
 }
 
-.card-item h1 {
-  margin-top: 50px;
+.cards h1 {
+  position: absolute;
+  bottom: 175px;
   font-size: 32px;
-  padding-left: 10px;
+  padding-left: 16px;
   letter-spacing: 4px;
   text-align: left;
   font-family: 'Crete Round', serif;
 }
 
-.card-item p {
+.cards p {
+  position: absolute;
+  bottom: 100px;
   text-align: left;
   font-family: 'Inter', sans-serif;
-  padding-top: 10px;
+  padding-left: 16px;
 }
+
+.cards ul {
+  position: absolute;
+  bottom: 12px;
+  padding-left: 16px;
+  text-align: left;
+}
+
+/* .cards p {
+  padding-top: 24px;
+  padding-bottom: 12px;
+} */
 
 .skills {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 87.2%;
-  padding-top: 80px;
+  padding-top: 60px;
+  padding-right: 50px;
 }
 
-.skills input[type=button] {
+.skills button {
   background: linear-gradient(0deg, #fff, #fff), linear-gradient(0deg, #8993a4, #8993a4);
-  margin: 90px 2px 22px 0;
+  margin-top: 90px;
   color: #091e42;
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
   font-family: 'Inter', serif;
   padding: 8px 8px;
+  border: 1px solid #8993a4;
 }
 
 .multi {
@@ -282,6 +311,7 @@ li {
   border: 1px solid #f55800;
   background-color: #fff5e1;
   color: #f55800;
+  transition: all 0.4s ease-in-out;
 }
 
 .projects:active {
@@ -333,6 +363,7 @@ li {
   border: 1px solid #f55800;
   background-color: #fff5e1;
   color: #f55800;
+  transition: all 0.4s ease-in-out;
 }
 
 .project-details:active {
@@ -478,7 +509,6 @@ textarea::placeholder {
   color: #ff6b00;
   font-size: 72px;
   text-align: center;
-  align-self: stretch;
 }
 
 .horizontal-seperator-on-dark {
@@ -492,18 +522,10 @@ textarea::placeholder {
   font-size: 16px;
 }
 
-.about-introduction {
-  height: 450px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
 .about-introduction-content {
   margin: 0 24px;
   display: flex;
-  gap: 24px 0;
+  gap: 24px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
@@ -536,13 +558,14 @@ textarea::placeholder {
   background-color: #f4f1f0;
 }
 
-.about-introduction-content + p {
+.about-introduction-content p {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
+  width: 55%;
 }
 
 .list-style {
@@ -560,9 +583,9 @@ textarea::placeholder {
   color: #fff;
 }
 
-#skills h2 {
+/* #skills h2 {
   margin-right: 20px;
-}
+} */
 
 .diamond {
   height: 18px;

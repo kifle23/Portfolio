@@ -27,6 +27,7 @@
 
   .nav li a:hover {
     color: #e05304;
+    transition: all 0.3s;
   }
 
   .contact-icon {
@@ -40,11 +41,12 @@
     overflow: none;
     display: flex;
     background-image: url(../Images/Illustration-header.svg);
-    background-position: right bottom;
+    background-position: right top;
     background-repeat: no-repeat;
     background-size: 440px 550px;
     background-color: #1c1a19;
     flex-direction: row-reverse;
+    height: 100vh;
   }
 
   .headline_section :nth-child(1) {
@@ -60,7 +62,7 @@
     display: flex;
     flex-direction: column-reverse;
     gap: 20px;
-    padding: 2%;
+    padding: 16% 2% 251px 2%;
   }
 
   .headline_section h1 {
@@ -69,9 +71,14 @@
   }
 
   .p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    width: 70%;
+    line-height: 32px;
+    padding-bottom: 251px;
+    width: 39.3%;
+    color: #f4f5f7;
   }
 
   .recent {
@@ -128,8 +135,14 @@
     width: 100%;
     height: 100%;
     background: url(../Images/desktop-about.png) no-repeat;
-    background-size: 500px 359px;
+    background-size: 700px 359px;
     background-position: right top;
+  }
+
+  .horizontal-seperator-on-dark {
+    margin-top: 157px;
+    width: 80%;
+    align-self: center;
   }
 
   #about-section {
@@ -139,6 +152,10 @@
 
   .about-heading {
     align-self: flex-start;
+  }
+
+  .about-heading p {
+    width: 566px;
   }
 
   .about-introduction {
@@ -194,5 +211,62 @@
     width: 100%;
     height: 40px;
     gap: 18px;
+  }
+
+  .contact-header {
+    text-align: start;
+  }
+
+  .project-details {
+    align-self: flex-end;
+    width: 100%;
+  }
+
+  .img {
+    display: grid;
+    background-repeat: no-repeat;
+    background-size: 369px;
+    text-align: left;
+    height: 97%;
+  }
+
+  .img-one {
+    background-image: url(../Images/portfolio/card-one.png);
+  }
+
+  .img-two {
+    background-image: url(../Images/portfolio/card-two.png);
+
+    /* padding: 225px 16px 12px 16px; */
+  }
+
+  .img-three {
+    background-image: url(../Images/portfolio/card-three.png);
+
+    /* padding: 225px 16px 12px 16px; */
+  }
+
+  .img-four {
+    background-image: url(../Images/portfolio/card-four.png);
+
+    /* padding: 225px 16px 12px 16px; */
+  }
+
+  .img-five {
+    background-image: url(../Images/portfolio/card-five.png);
+
+    /* padding: 225px 16px 12px 16px; */
+  }
+
+  .img-six {
+    background-image: url(../Images/portfolio/card-six.png);
+
+    /* padding: 225px 16px 12px 16px; */
+  }
+
+  .btn-contact {
+    width: 131px;
+    height: 48px;
+    align-self: center;
   }
 }
