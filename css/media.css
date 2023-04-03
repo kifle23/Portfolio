@@ -238,21 +238,49 @@
     text-align: start;
   }
 
+  .btn-pos {
+    position: absolute;
+    bottom: 5px;
+    width: 94.53% !important;
+  }
+
   .project-details {
     align-self: flex-end;
     width: 100%;
   }
 
+  .hover-content:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+  }
+
+  .hover-content .dark-hover * {
+    display: none;
+  }
+
+  .hover-content .img-hover * {
+    display: block;
+  }
+
+  .hover-content:hover .dark-hover * {
+    display: block;
+  }
+
+  .hover-content:hover .img-hover * {
+    display: none;
+  }
+
+
   .img {
     display: grid;
     background-repeat: no-repeat;
-    background-size: 369px;
-    text-align: left;
-    height: 97%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2rem;
   }
 
   .img-one {
-    background-image: url(../Images/portfolio/card-two.png);
+    background-image: url(../Images/portfolio/card-four.png);
   }
 
   .img-two {

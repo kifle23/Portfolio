@@ -34,9 +34,7 @@ header {
 }
 
 .btn-pos {
-  position: absolute !important;
-  bottom: 0 !important;
-  width: 100% !important;
+  width: 100%;
 }
 
 .rel-pos {
@@ -207,6 +205,7 @@ li {
 }
 
 .cards {
+  overflow: hidden;
   position: relative;
   top: 180px;
   width: 375px;
@@ -302,22 +301,6 @@ li {
   font-family: 'Inter', serif;
 }
 
-#hover-content #dark-hover * {
-  display: none;
-}
-
-#hover-content #img-hover * {
-  display: block;
-}
-
-#hover-content:hover #dark-hover * {
-  display: block;
-}
-
-#hover-content:hover #img-hover * {
-  display: none;
-}
-
 .projects:hover {
   border: 1px solid #f55800;
   background-color: #fff5e1;
@@ -362,7 +345,6 @@ li {
 .project-details {
   margin: 0;
   height: 48px;
-  width: 87.2%;
   border-radius: 0;
   padding: 12px;
   background: #ff6b00;
