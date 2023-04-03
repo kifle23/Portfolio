@@ -5,10 +5,6 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100%;
   width: 100%;
 }
@@ -33,12 +29,12 @@ header {
   margin-right: 100px;
 }
 
-.btn-pos {
+/* .btn-pos {
   width: 100%;
-}
+} */
 
 .rel-pos {
-  position: relative !important;
+  position: relative;
 }
 
 .nav {
@@ -82,7 +78,6 @@ li {
 }
 
 .headline img {
-  display: flex;
   right: 27.67%;
   left: 16%;
   height: 16px;
@@ -98,7 +93,6 @@ li {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  flex: none;
 }
 
 .h4 {
@@ -111,8 +105,6 @@ li {
   line-height: 32px;
   align-items: center;
   color: #fff;
-  flex: none;
-  flex-grow: 0;
   margin-top: 12px;
   margin-bottom: 12px;
 }
@@ -125,8 +117,6 @@ li {
   font-size: 20px;
   line-height: 32px;
   color: #f4f5f7;
-  order: 2;
-  flex-grow: 0;
   margin-top: 0;
   margin-bottom: 12px;
 }
@@ -136,10 +126,7 @@ li {
   flex-direction: row;
   align-items: center;
   padding: 12px 151px 120px 24px;
-  width: 200px;
   height: 40px;
-  flex: none;
-  order: 3;
   gap: 18px;
 }
 
@@ -147,10 +134,8 @@ li {
 .recent {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  width: 100%;
-
-  /* padding: 30px; */
+  width: 87.2%;
+  padding-left: 141px;
 }
 
 .recent h2 {
@@ -160,6 +145,7 @@ li {
   justify-content: center;
   font-family: 'Crete Round', serif;
   font-size: 35px;
+
 }
 
 .recent hr {
@@ -186,6 +172,7 @@ li {
 .recent img {
   position: relative;
   top: 117px;
+
 }
 
 .recent p {
@@ -200,8 +187,6 @@ li {
   gap: 10px;
   align-items: center;
   margin-bottom: 300px;
-
-  /* padding: 20px; */
 }
 
 .cards {
@@ -218,11 +203,10 @@ li {
 }
 
 .img {
-  display: grid;
   height: 386px;
   background-image: url(../Images/portfolio/card-three.svg);
   background-repeat: no-repeat;
-  background-size: 375px;
+  background-size: cover;
 }
 
 .cards h1 {
@@ -319,14 +303,9 @@ li {
 }
 
 .skills-details {
-  display: flex;
+  display: flex !important;
   flex-direction: row;
   max-width: 250px;
-}
-
-.hr-dis {
-  display: flex !important;
-  flex-direction: row !important;
 }
 
 .skills-details li {
@@ -354,6 +333,7 @@ li {
   font-weight: bold;
   line-height: 24px;
   font-family: 'Inter', serif;
+  width: 100%;
 }
 
 .project-details:hover {
@@ -580,10 +560,6 @@ textarea::placeholder {
   color: #fff;
 }
 
-/* #skills h2 {
-  margin-right: 20px;
-} */
-
 .diamond {
   height: 18px;
   width: 18px;
@@ -615,5 +591,4 @@ textarea::placeholder {
   width: 100%;
   height: 40px;
   gap: 18px;
-  padding: 12px 151px 120px 24px;
 }

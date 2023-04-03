@@ -241,12 +241,12 @@
   .btn-pos {
     position: absolute;
     bottom: 5px;
-    width: 94.53% !important;
+    width: 94.53%;
+
   }
 
   .project-details {
     align-self: flex-end;
-    width: 100%;
   }
 
   .hover-content:hover {
@@ -271,7 +271,6 @@
   }
 
   .img {
-    display: grid;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -284,32 +283,22 @@
 
   .img-two {
     background-image: url(../Images/portfolio/card-two.png);
-
-    /* padding: 225px 16px 12px 16px; */
   }
 
   .img-three {
     background-image: url(../Images/portfolio/card-three.png);
-
-    /* padding: 225px 16px 12px 16px; */
   }
 
   .img-four {
     background-image: url(../Images/portfolio/card-four.png);
-
-    /* padding: 225px 16px 12px 16px; */
   }
 
   .img-five {
     background-image: url(../Images/portfolio/card-five.png);
-
-    /* padding: 225px 16px 12px 16px; */
   }
 
   .img-six {
     background-image: url(../Images/portfolio/card-six.png);
-
-    /* padding: 225px 16px 12px 16px; */
   }
 
   .btn-contact {
