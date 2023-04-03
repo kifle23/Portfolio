@@ -335,10 +335,6 @@ li {
   background-color: #f4f1f0;
 }
 
-.project-details:hover{
-  transition: all 0.4s ease-in-out;
-}
-
 .skills-details {
   display: flex;
   flex-direction: row;
@@ -382,6 +378,7 @@ li {
   border: 1px solid #f55800;
   background-color: #fff5e1;
   color: #f55800;
+  transition: all 0.4s ease-in-out;
 }
 
 .project-details:active {
