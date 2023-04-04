@@ -43,26 +43,18 @@
     background-image: url(../Images/Illustration-header.svg);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 440px 550px;
+    background-size: 36vw 90vh;
     background-color: #1c1a19;
     flex-direction: row-reverse;
     height: 100vh;
   }
 
-  .headline_section :nth-child(1) {
-    margin-top: auto;
-  }
-
-  .headline_section :nth-child(2) {
-    margin-top: auto;
-    flex-basis: 5px;
-  }
-
   .image-icons-header {
+    order: 1;
     display: flex;
-    flex-direction: column-reverse;
-    gap: 18px;
-    padding: 24% 2% 251px 36px;
+    flex-direction: column;
+    align-self: center;
+    padding-right: 2rem;
   }
 
   .headline_section h1 {
@@ -90,37 +82,33 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    padding-bottom: 251px;
     margin: 12px 0 12px 50px;
     width: 45.3%;
     color: #f4f5f7;
     margin-top: 12px;
   }
 
-  .recent {
+  #resent-works {
     padding: 0 141px;
     color: #091e42;
+    margin-top: 5rem;
   }
 
   .line {
     display: flex;
     flex-direction: row;
     color: #091e42;
-    width: 100%;
-    align-self: flex-start;
+    align-items: center;
+    margin-bottom: 5rem;
   }
 
   .line h2 {
-    top: 70px;
-    text-align: left;
     min-width: 300px;
   }
 
   .line hr {
-    text-align: center;
     height: 2px;
     background-color: #091e42;
-    top: 100px;
     width: 100%;
   }
 
@@ -128,13 +116,15 @@
     display: flex;
     flex-direction: row;
     gap: 15px;
-    align-items: flex-start;
   }
 
   .card-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 0 141px;
+    gap: 1rem;
+    margin-top: 24px;
+    margin-bottom: 130px;
   }
 
   .background-graphic {
@@ -142,7 +132,7 @@
     width: 100%;
     height: 100%;
     background: url(../Images/desktop-about.png) no-repeat;
-    background-size: 700px 359px;
+    background-size: 45vw 40vh;
     background-position: right top;
   }
 
@@ -293,9 +283,13 @@
     height: 48px;
     align-self: center;
   }
+
+  .cards {
+    width: 100%;
+  }
 }
 
-@media only screen and (max-width: 1300px) and (min-width: 768px) {
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
   .card-section {
     grid-template-columns: repeat(2, 1fr);
   }

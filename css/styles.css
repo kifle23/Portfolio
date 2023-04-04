@@ -134,57 +134,48 @@ li {
   padding-right: 24px;
 }
 
+.line {
+  margin-bottom: 80px;
+  margin-top: 120px;
+}
+
 .recent h2 {
   position: relative;
-  top: 105px;
   font-family: 'Crete Round', serif;
   font-size: 35px;
 }
 
 .recent hr {
   position: relative;
-  top: 107px;
-  margin-bottom: 50px;
 }
 
 .recent h3 {
   position: relative;
   font-family: 'Crete Round', serif;
-  top: 135px;
   font-size: 30px;
-}
-
-.img-txt {
-  display: flex;
-  flex-direction: column;
 }
 
 .recent img {
   position: relative;
-  top: 117px;
   width: 100%;
 }
 
 .recent p {
   position: relative;
-  top: 135px;
   font-size: 16px;
 }
 
 .card-section {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1rem;
   align-items: center;
-  margin-bottom: 300px;
+  margin-bottom: 120px;
 }
 
 .cards {
   overflow: hidden;
-  position: relative;
-  top: 180px;
   width: 87.2%;
-  padding: 10px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -199,7 +190,7 @@ li {
   background-size: cover;
 }
 
-.cards h1 {
+.cards h3 {
   position: absolute;
   bottom: 175px;
   font-size: 32px;
@@ -224,18 +215,8 @@ li {
   text-align: left;
 }
 
-.skills {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 87.2%;
-  padding-top: 60px;
-  padding-right: 50px;
-}
-
 .skills button {
   background: linear-gradient(0deg, #fff, #fff), linear-gradient(0deg, #8993a4, #8993a4);
-  margin-top: 90px;
   color: #091e42;
   font-size: 15px;
   font-weight: 400;
@@ -249,6 +230,8 @@ li {
 .multi {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
+  padding: 24px;
 }
 
 .projects {
@@ -286,7 +269,10 @@ li {
 .skills-details {
   display: flex !important;
   flex-direction: row;
-  max-width: 250px;
+
+  /* max-width: 250px; */
+
+  /* max-width: 80%; */
 }
 
 .skills-details li {
