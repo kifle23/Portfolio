@@ -98,52 +98,44 @@
   }
 
   .recent {
-    width: 100%;
-    padding: 80px;
+    padding: 0 141px;
     color: #091e42;
   }
 
   .line {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 40px;
-    justify-content: center;
-    position: relative;
-    margin-bottom: 30px;
     color: #091e42;
+    width: 100%;
+    align-self: flex-start;
+
   }
 
   .line h2 {
-    float: left;
     top: 70px;
-    left: 20px;
+    text-align: left;
+    min-width: 300px;
   }
 
   .line hr {
     text-align: center;
     height: 2px;
-    width: 70%;
     background-color: #091e42;
-    float: right;
     top: 100px;
+    width: 100%;
   }
 
   .img-txt {
     display: flex;
     flex-direction: row;
     gap: 15px;
+    align-items: flex-start;
   }
 
   .card-section {
-    width: 100%;
     display: grid;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 366px 366px 366px;
-    align-items: center;
-    justify-content: center;
-    row-gap: 120px;
-    margin-bottom: 0;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 141px;
   }
 
   .background-graphic {
@@ -168,10 +160,6 @@
 
   .about-heading {
     align-self: flex-start;
-  }
-
-  .about-heading p {
-    width: 566px;
   }
 
   .about-introduction {
@@ -207,7 +195,8 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 0 24px;
-    margin-left: 135px;
+    padding-left: 142px;
+    padding-right: 142px;
   }
 
   #contact-me h2 {
@@ -241,7 +230,7 @@
   .btn-pos {
     position: absolute;
     bottom: 5px;
-    width: 94.53%;
+    width: 93.59%;
   }
 
   .project-details {
@@ -304,5 +293,11 @@
     width: 131px;
     height: 48px;
     align-self: center;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 768px) {
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

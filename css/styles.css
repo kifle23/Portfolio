@@ -29,10 +29,6 @@ header {
   margin-right: 100px;
 }
 
-/* .btn-pos {
-  width: 100%;
-} */
-
 .rel-pos {
   position: relative;
 }
@@ -134,15 +130,13 @@ li {
 .recent {
   display: flex;
   flex-direction: column;
-  width: 87.2%;
-  padding-left: 141px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .recent h2 {
   position: relative;
   top: 105px;
-  text-align: center;
-  justify-content: center;
   font-family: 'Crete Round', serif;
   font-size: 35px;
 }
@@ -158,19 +152,18 @@ li {
   font-family: 'Crete Round', serif;
   top: 135px;
   font-size: 30px;
-  text-align: center;
 }
 
 .img-txt {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .recent img {
   position: relative;
   top: 117px;
+  width: 100%;
+
 }
 
 .recent p {
@@ -191,7 +184,7 @@ li {
   overflow: hidden;
   position: relative;
   top: 180px;
-  width: 375px;
+  width: 87.2%;
   padding: 10px;
   text-align: center;
   align-items: center;
@@ -249,23 +242,14 @@ li {
   font-weight: 400;
   line-height: 20px;
   font-family: 'Inter', serif;
-  padding: 8px 8px;
+  padding: 8px;
+  margin-right: 8px;
   border: 1px solid #8993a4;
 }
 
 .multi {
   display: flex;
   flex-direction: column;
-  width: 448px;
-  align-items: start;
-}
-
-.multi h3 {
-  padding-top: 30px;
-}
-
-.multi p {
-  padding-top: 30px;
 }
 
 .projects {
