@@ -34,7 +34,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
-    <title>Portfolio</title>
+    <title>Kifle's Portfolio</title>
     <link rel="icon" type="image/x-icon" href="Images/favicon.ico" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/media.css" />
@@ -43,9 +43,7 @@
     <!-- header section -->
     <header>
       <nav class="headline">
-        <a>
-          <h4>Kifle Haile</h4>
-        </a>
+        <a href="#"> <h4>Kifle Haile</h4> </a>
         <img src="Images/Menu.png" alt="icon" />
 
         <ul class="nav">
@@ -105,7 +103,7 @@
           <hr />
         </div>
         <div class="img-txt">
-          <img src="Images/portfolio/card-one.svg" alt="" />
+          <img src="Images/portfolio/card-one.svg" alt="yoga" />
           <div class="multi">
             <h3>Multi-Post Stories</h3>
             <p>
@@ -128,18 +126,18 @@
     <section class="card-section">
       <div class="hover-content cards rel-pos">
         <div class="img-hover img img-one rel-pos">
-          <h1>Profesional Art Printing Data</h1>
+          <h3>Profesional Art Printing Data</h3>
           <p>
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. Has been the industry's standard.
           </p>
-          <ul class="skills-details hr-dis">
+          <ul class="skills-details">
             <li>HTML</li>
             <li>Bootstrap</li>
             <li>Ruby</li>
           </ul>
         </div>
-        <div class="dark-hover">
+        <div class="dark-hover img">
           <button class="project-details btn-pos" type="button">
             See project
           </button>
@@ -147,12 +145,12 @@
       </div>
       <div class="hover-content cards rel-pos">
         <div class="img-hover img img-two rel-pos">
-          <h1>Profesional Art Printing Data</h1>
+          <h3>Profesional Art Printing Data</h3>
           <p>
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. Has been the industry's standard.
           </p>
-          <ul class="skills-details hr-dis">
+          <ul class="skills-details">
             <li>HTML</li>
             <li>Bootstrap</li>
             <li>Ruby</li>
@@ -166,12 +164,12 @@
       </div>
       <div class="hover-content cards rel-pos">
         <div class="img-hover img img-three rel-pos">
-          <h1>Profesional Art Printing Data</h1>
+          <h3>Profesional Art Printing Data</h3>
           <p>
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. Has been the industry's standard.
           </p>
-          <ul class="skills-details hr-dis">
+          <ul class="skills-details">
             <li>HTML</li>
             <li>Bootstrap</li>
             <li>Ruby</li>
@@ -185,12 +183,12 @@
       </div>
       <div class="hover-content cards rel-pos">
         <div class="img-hover img img-four rel-pos">
-          <h1>Profesional Art Printing Data</h1>
+          <h3>Profesional Art Printing Data</h3>
           <p>
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. Has been the industry's standard.
           </p>
-          <ul class="skills-details hr-dis">
+          <ul class="skills-details">
             <li>HTML</li>
             <li>Bootstrap</li>
             <li>Ruby</li>
@@ -204,12 +202,12 @@
       </div>
       <div class="hover-content cards rel-pos">
         <div class="img-hover img img-five rel-pos">
-          <h1>Profesional Art Printing Data</h1>
+          <h3>Profesional Art Printing Data</h3>
           <p>
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. Has been the industry's standard.
           </p>
-          <ul class="skills-details hr-dis">
+          <ul class="skills-details">
             <li>HTML</li>
             <li>Bootstrap</li>
             <li>Ruby</li>
@@ -223,12 +221,12 @@
       </div>
       <div class="hover-content cards rel-pos">
         <div class="img-hover img img-six rel-pos">
-          <h1>Profesional Art Printing Data</h1>
+          <h3>Profesional Art Printing Data</h3>
           <p>
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. Has been the industry's standard.
           </p>
-          <ul class="skills-details hr-dis">
+          <ul class="skills-details">
             <li>HTML</li>
             <li>Bootstrap</li>
             <li>Ruby</li>
@@ -303,6 +301,7 @@
           </h2>
         </div>
         <form action="https://formspree.io/f/mdovlqop" method="POST">
+          <label for="fullName" hidden>Full Name</label>
           <input
             type="text"
             id="form-name"
@@ -311,7 +310,9 @@
             maxlength="30"
             required
           />
+          <label for="email" hidden>Email</label>
           <input type="email" name="email" placeholder="Email" required />
+          <label for="message" hidden>Message</label>
           <textarea
             name="message"
             id="form-message"

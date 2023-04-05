@@ -43,26 +43,18 @@
     background-image: url(../Images/Illustration-header.svg);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 440px 550px;
+    background-size: 36vw 90vh;
     background-color: #1c1a19;
     flex-direction: row-reverse;
     height: 100vh;
   }
 
-  .headline_section :nth-child(1) {
-    margin-top: auto;
-  }
-
-  .headline_section :nth-child(2) {
-    margin-top: auto;
-    flex-basis: 5px;
-  }
-
   .image-icons-header {
+    order: 1;
     display: flex;
-    flex-direction: column-reverse;
-    gap: 18px;
-    padding: 24% 2% 251px 36px;
+    flex-direction: column;
+    align-self: center;
+    padding-right: 2rem;
   }
 
   .headline_section h1 {
@@ -90,43 +82,34 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    padding-bottom: 251px;
     margin: 12px 0 12px 50px;
     width: 45.3%;
     color: #f4f5f7;
     margin-top: 12px;
   }
 
-  .recent {
-    width: 100%;
-    padding: 80px;
+  #resent-works {
+    padding: 0 141px;
     color: #091e42;
+    margin-top: 5rem;
   }
 
   .line {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 40px;
-    justify-content: center;
-    position: relative;
-    margin-bottom: 30px;
     color: #091e42;
+    align-items: center;
+    margin-bottom: 5rem;
   }
 
   .line h2 {
-    float: left;
-    top: 70px;
-    left: 20px;
+    min-width: 300px;
   }
 
   .line hr {
-    text-align: center;
     height: 2px;
-    width: 70%;
     background-color: #091e42;
-    float: right;
-    top: 100px;
+    width: 100%;
   }
 
   .img-txt {
@@ -136,14 +119,12 @@
   }
 
   .card-section {
-    width: 100%;
     display: grid;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 366px 366px 366px;
-    align-items: center;
-    justify-content: center;
-    row-gap: 120px;
-    margin-bottom: 0;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 141px;
+    gap: 1rem;
+    margin-top: 24px;
+    margin-bottom: 130px;
   }
 
   .background-graphic {
@@ -151,7 +132,7 @@
     width: 100%;
     height: 100%;
     background: url(../Images/desktop-about.png) no-repeat;
-    background-size: 700px 359px;
+    background-size: 45vw 40vh;
     background-position: right top;
   }
 
@@ -168,10 +149,6 @@
 
   .about-heading {
     align-self: flex-start;
-  }
-
-  .about-heading p {
-    width: 566px;
   }
 
   .about-introduction {
@@ -207,7 +184,8 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 0 24px;
-    margin-left: 135px;
+    padding-left: 142px;
+    padding-right: 142px;
   }
 
   #contact-me h2 {
@@ -241,12 +219,11 @@
   .btn-pos {
     position: absolute;
     bottom: 5px;
-    width: 94.53% !important;
+    width: 93.59%;
   }
 
   .project-details {
     align-self: flex-end;
-    width: 100%;
   }
 
   .hover-content:hover {
@@ -271,7 +248,6 @@
   }
 
   .img {
-    display: grid;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -284,37 +260,37 @@
 
   .img-two {
     background-image: url(../Images/portfolio/card-two.png);
-
-    /* padding: 225px 16px 12px 16px; */
   }
 
   .img-three {
     background-image: url(../Images/portfolio/card-three.png);
-
-    /* padding: 225px 16px 12px 16px; */
   }
 
   .img-four {
     background-image: url(../Images/portfolio/card-four.png);
-
-    /* padding: 225px 16px 12px 16px; */
   }
 
   .img-five {
     background-image: url(../Images/portfolio/card-five.png);
-
-    /* padding: 225px 16px 12px 16px; */
   }
 
   .img-six {
     background-image: url(../Images/portfolio/card-six.png);
-
-    /* padding: 225px 16px 12px 16px; */
   }
 
   .btn-contact {
     width: 131px;
     height: 48px;
     align-self: center;
+  }
+
+  .cards {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
