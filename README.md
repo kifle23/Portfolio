@@ -143,7 +143,9 @@ Feel free to check the [https://github.com/kifle23/Portfolio-setup-and-mobile-fi
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, you are welcome to contribute or modify this project.
+If you like this project, you are welcome to contribute or modify this project. The following link is about the walkthrough of what I learned doing this work, the challenges that I faced and how did I overcome those challenges, and future improvements that I am looking to implement on this project in the near future.
+
+https://www.loom.com/share/2411848b779741c7b27febd3fb40c45e
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
