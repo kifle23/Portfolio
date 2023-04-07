@@ -268,10 +268,6 @@ li {
 .skills-details {
   display: flex !important;
   flex-direction: row;
-
-  /* max-width: 250px; */
-
-  /* max-width: 80%; */
 }
 
 .skills-details li {
