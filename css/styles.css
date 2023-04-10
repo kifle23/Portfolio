@@ -100,7 +100,7 @@ li {
 
 .mobile-menu ul li {
   border-bottom: 1px solid #6f6c6b;
-  width: 87.2%;
+  width: 98%;
 }
 
 .mobile-menu ul li a:hover {
@@ -124,7 +124,7 @@ li {
   height: 12px;
   z-index: 3;
   position: fixed;
-  right: 4rem;
+  right: 2rem;
 }
 
 .headline_section {
