@@ -103,6 +103,11 @@ li {
   width: 87.2%;
 }
 
+.mobile-menu ul li a:hover {
+  color: #e05304;
+  transition: all 0.3s;
+}
+
 .show {
   display: block;
 }
