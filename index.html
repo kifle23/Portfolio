@@ -34,25 +34,34 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
-    <title>Kifle's Portfolio</title>
+    <title>Kifle K. Haile Portfolio</title>
     <link rel="icon" type="image/x-icon" href="Images/favicon.ico" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/media.css" />
+    <script src="scripts/menu.js" defer></script>
   </head>
   <body>
     <!-- header section -->
     <header>
-      <nav class="headline">
-        <a href="#"> <h4>Kifle Haile</h4> </a>
-        <img src="Images/Menu.png" alt="icon" />
-
-        <ul class="nav">
-          <li><a href="#resent-works">Portfolio</a></li>
-          <li><a href="#about-section">About</a></li>
-          <li><a href="#contact-detail">Contact</a></li>
-          <li><a class="contact-icon" href="#contact-detail"></a></li>
-        </ul>
-      </nav>
+      <div class="headline">
+        <a href="#" class="logo"> Kifle Haile</a>
+        <i class="hamburger" alt="icon"></i>
+        <nav aria-label="Menu" class="mobile-menu">
+          <ul>
+            <li><a href="#resent-works">Portfolio</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#contact-detail">Contact</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Menu" class="main-menu">
+          <ul>
+            <li><a href="#resent-works">Portfolio</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#contact-detail">Contact</a></li>
+            <li><a class="contact-icon" href="#contact-detail"></a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- headline section -->
     <section id="headline_section" class="headline_section">
@@ -353,5 +362,6 @@
         </li>
       </ul>
     </section>
+    <div class="popup"></div>
   </body>
 </html>

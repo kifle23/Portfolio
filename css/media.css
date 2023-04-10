@@ -1,19 +1,32 @@
 @media screen and (min-width: 768px) {
   .headline {
-    padding: 0 24px;
+    padding-left: 10.42rem;
   }
 
-  .headline img {
+  .headline a {
+    white-space: nowrap;
+  }
+
+  .hamburger {
     display: none;
   }
 
-  .nav {
+  .mobile-menu {
+    display: none;
+  }
+
+  .main-menu {
+    display: block;
+  }
+
+  .main-menu ul {
+    padding-right: 8rem;
     list-style: none;
     display: flex;
     gap: 0 32px;
   }
 
-  .nav a {
+  .main-menu a {
     text-decoration: none;
     color: #fff;
     font-size: 15px;
@@ -21,11 +34,7 @@
     font-family: "Inter", sans-serif;
   }
 
-  .nav li:last-child {
-    padding-right: 100px;
-  }
-
-  .nav li a:hover {
+  .main-menu li a:hover {
     color: #e05304;
     transition: all 0.3s;
   }
@@ -53,14 +62,14 @@
     order: 1;
     display: flex;
     flex-direction: column;
-    align-self: center;
     padding-right: 2rem;
+    padding-top: 5rem;
   }
 
   .headline_section h1 {
     font-size: 72px;
     line-height: 81px;
-    margin: 12px 0 12px 50px;
+    margin-left: 50px;
   }
 
   .h4 {
@@ -89,7 +98,7 @@
   }
 
   #resent-works {
-    padding: 0 141px;
+    padding: 0 117px;
     color: #091e42;
     margin-top: 5rem;
   }
