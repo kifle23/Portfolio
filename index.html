@@ -42,6 +42,7 @@
     <script src="scripts/generate-recent.js" defer></script>
     <script src="scripts/generate-cards.js" defer></script>
     <script src="scripts/detail-popup.js" defer></script>
+    <script src="scripts/validation-handler.js" defer></script>
   </head>
   <body>
     <!-- header section -->
@@ -171,7 +172,7 @@
             like to chat please get in touch.
           </h2>
         </div>
-        <form action="https://formspree.io/f/mdovlqop" method="POST">
+        <form action="https://formspree.io/f/meqwlynw" method="POST">
           <label for="fullName" hidden>Full Name</label>
           <input
             type="text"
@@ -191,9 +192,11 @@
             maxlength="500"
             required
           ></textarea>
-          <button type="submit" class="project-details btn-contact">
+          <span class="form-validation-msg"></span>
+          <button id="btn-msg" type="submit" class="project-details btn-contact">
             Get in touch
           </button>
+          
         </form>
       </div>
     </section>

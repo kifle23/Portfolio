@@ -760,3 +760,9 @@ textarea::placeholder {
   color: #5b5957;
   background-color: #f4f1f0;
 }
+
+.form-validation-msg {
+  color: red;
+  background: bisque;
+  border-radius: 5px;
+}
