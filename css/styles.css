@@ -640,7 +640,7 @@ textarea::placeholder {
 
 /* ====================================== */
 .project-details-popup {
-  overflow: auto;
+  overflow: hidden;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   position: fixed;
   height: 105vh;
