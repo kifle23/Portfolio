@@ -39,12 +39,8 @@
 </details>
 
 <details>
-<summary>Linters</summary>
-  <ul>
-    <li>Lighthouse</li>
-    <li>Webhint</li>
-    <li>Stylelint</li>
-  </ul>
+<summary>Javascript</summary>
+  
 </details>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -72,7 +68,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 ```sh
- git init -y
+ git init
 ```
 
 ### Setup
@@ -153,7 +149,7 @@ https://www.loom.com/share/2411848b779741c7b27febd3fb40c45e
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse
+I would like to thank Microverse for enabling me to do this capstone project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

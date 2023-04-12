@@ -266,23 +266,23 @@
     background-image: url(../Images/portfolio/card-four.png);
   }
 
-  .img-two {
+  .img-2 {
     background-image: url(../Images/portfolio/card-two.png);
   }
 
-  .img-three {
+  .img-3 {
     background-image: url(../Images/portfolio/card-three.png);
   }
 
-  .img-four {
+  .img-4 {
     background-image: url(../Images/portfolio/card-four.png);
   }
 
-  .img-five {
+  .img-5 {
     background-image: url(../Images/portfolio/card-five.png);
   }
 
-  .img-six {
+  .img-6 {
     background-image: url(../Images/portfolio/card-six.png);
   }
 
@@ -294,6 +294,64 @@
 
   .cards {
     width: 100%;
+  }
+
+  /* =============================================== */
+  .project-details-popup {
+    overflow: auto;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    display: none;
+  }
+
+  .popup {
+    height: 100vh;
+    width: 80.3vw;
+    position: absolute;
+    top: 7rem;
+    right: 7.3rem;
+  }
+
+  .tech-list li {
+    border: 1px solid #8993a4;
+    padding: 10px 12px;
+    background-color: #ffffff3a;
+    font-family: "Inter", sans-serif;
+  }
+
+  .modal-buttons {
+    justify-content: flex-start;
+  }
+
+  .pop-head {
+    justify-content: space-between;
+  }
+
+  .project-details-inner {
+    padding: 24px;
+  }
+
+  .project-details-inner img {
+    width: 50%;
+    max-height: 448px;
+    max-width: 660px;
+  }
+
+  .popup-content {
+    flex-direction: row;
+  }
+
+  .popup-lower {
+    justify-content: space-between;
+  }
+
+  .project-details-header {
+    gap: 10px;
+  }
+
+  .popup-lower p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
   }
 }
 
