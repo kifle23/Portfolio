@@ -297,7 +297,10 @@
   }
 
   /* =============================================== */
-
+  .project-details-popup {
+    padding: 3rem 7.3rem;
+  }
+  
   .tech-list li {
     border: 1px solid #8993a4;
     padding: 10px 12px;
