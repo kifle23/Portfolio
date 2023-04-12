@@ -88,6 +88,11 @@ li {
   line-height: 43px;
 }
 
+.modal-buttons div a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .mobile-menu ul li a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
@@ -96,6 +101,18 @@ li {
   font-weight: 700;
   color: #fff5e1;
   padding-bottom: 15px;
+}
+
+.tech-list li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  margin-bottom: 30px;
 }
 
 .mobile-menu ul li {
@@ -301,6 +318,7 @@ li {
   font-weight: 400;
   line-height: 20px;
   font-family: 'Inter', serif;
+  margin: 8px;
   padding: 8px;
   border: 1px solid #8993a4;
 }
@@ -362,6 +380,10 @@ li {
   line-height: 24px;
   font-family: 'Inter', serif;
   width: 100%;
+}
+
+.width-auto {
+  width: auto;
 }
 
 .project-details:hover {
@@ -604,4 +626,137 @@ textarea::placeholder {
   width: 100%;
   height: 40px;
   gap: 18px;
+}
+
+.close-icon-detail {
+  background: url(../Images/icons/close_detail.png) no-repeat center/cover;
+  width: 12px;
+  height: 12px;
+}
+
+.project-details-popup.show {
+  display: block;
+}
+
+/* ====================================== */
+.project-details-popup {
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+  height: 105vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 5000;
+  display: none;
+}
+
+.tech-list {
+  display: flex;
+  bottom: 1rem;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.popup-heading {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.project-details-inner {
+  margin: auto;
+  background-color: #fff;
+  padding: 15px 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 3px 0 black;
+}
+
+.pop-head {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-details-header {
+  display: flex;
+  flex-direction: column;
+  gap: 33px 0;
+  align-self: stretch;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+  margin-top: 150px;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.popup-content img {
+  border: 2px inset #eee;
+}
+
+.popup-lower {
+  display: flex;
+  flex-direction: column;
+  align-self: self-start;
+  flex-wrap: wrap;
+}
+
+.live-icon {
+  background: url(../Images/icons/Icon-Export.png) no-repeat center center/cover;
+  width: 24px;
+  height: 24px;
+}
+
+.source-icon {
+  background: url(../Images/icons/Icon-GitHub.png) no-repeat center center/cover;
+  width: 24px;
+  height: 24px;
+}
+
+.modal-buttons div {
+  align-items: center;
+  gap: 15px;
+  display: flex;
+}
+
+.btn-details {
+  font-family: "Inter", sans-serif;
+  border: 1px solid transparent;
+  line-height: 24px;
+  font-size: 17px;
+  padding: 12px;
+  font-weight: 700;
+  background-color: #f55800;
+}
+
+.btn-details:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.btn-details:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.btn-details:disabled {
+  border: 1px solid transparent;
+  color: #5b5957;
+  background-color: #f4f1f0;
 }

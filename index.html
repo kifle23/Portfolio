@@ -39,11 +39,14 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/media.css" />
     <script src="scripts/menu.js" defer></script>
+    <script src="scripts/generate-recent.js" defer></script>
+    <script src="scripts/generate-cards.js" defer></script>
+    <script src="scripts/detail-popup.js" defer></script>
   </head>
   <body>
     <!-- header section -->
     <header>
-      <div class="headline">
+      <div id="headline" class="headline">
         <a href="#" class="logo"> Kifle Haile</a>
         <i class="hamburger" alt="icon"></i>
         <nav aria-label="Menu" class="mobile-menu">
@@ -105,149 +108,8 @@
         </li>
       </ul>
     </section>
-    <section id="resent-works">
-      <div class="recent">
-        <div class="line">
-          <h2>My Recent Works</h2>
-          <hr />
-        </div>
-        <div class="img-txt">
-          <img src="Images/portfolio/card-one.svg" alt="yoga" />
-          <div class="multi">
-            <h3>Multi-Post Stories</h3>
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-            <div class="skills">
-              <button type="button">CSS</button>
-              <button type="button">HTML</button>
-              <button type="button">Bootstrap</button>
-              <button type="button">Ruby</button>
-            </div>
-            <button class="projects" type="button">See project</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="card-section">
-      <div class="hover-content cards rel-pos">
-        <div class="img-hover img img-one rel-pos">
-          <h3>Profesional Art Printing Data</h3>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-          <ul class="skills-details">
-            <li>HTML</li>
-            <li>Bootstrap</li>
-            <li>Ruby</li>
-          </ul>
-        </div>
-        <div class="dark-hover img">
-          <button class="project-details btn-pos" type="button">
-            See project
-          </button>
-        </div>
-      </div>
-      <div class="hover-content cards rel-pos">
-        <div class="img-hover img img-two rel-pos">
-          <h3>Profesional Art Printing Data</h3>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-          <ul class="skills-details">
-            <li>HTML</li>
-            <li>Bootstrap</li>
-            <li>Ruby</li>
-          </ul>
-        </div>
-        <div class="dark-hover">
-          <button class="project-details btn-pos" type="button">
-            See project
-          </button>
-        </div>
-      </div>
-      <div class="hover-content cards rel-pos">
-        <div class="img-hover img img-three rel-pos">
-          <h3>Profesional Art Printing Data</h3>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-          <ul class="skills-details">
-            <li>HTML</li>
-            <li>Bootstrap</li>
-            <li>Ruby</li>
-          </ul>
-        </div>
-        <div class="dark-hover">
-          <button class="project-details btn-pos" type="button">
-            See project
-          </button>
-        </div>
-      </div>
-      <div class="hover-content cards rel-pos">
-        <div class="img-hover img img-four rel-pos">
-          <h3>Profesional Art Printing Data</h3>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-          <ul class="skills-details">
-            <li>HTML</li>
-            <li>Bootstrap</li>
-            <li>Ruby</li>
-          </ul>
-        </div>
-        <div class="dark-hover">
-          <button class="project-details btn-pos" type="button">
-            See project
-          </button>
-        </div>
-      </div>
-      <div class="hover-content cards rel-pos">
-        <div class="img-hover img img-five rel-pos">
-          <h3>Profesional Art Printing Data</h3>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-          <ul class="skills-details">
-            <li>HTML</li>
-            <li>Bootstrap</li>
-            <li>Ruby</li>
-          </ul>
-        </div>
-        <div class="dark-hover">
-          <button class="project-details btn-pos" type="button">
-            See project
-          </button>
-        </div>
-      </div>
-      <div class="hover-content cards rel-pos">
-        <div class="img-hover img img-six rel-pos">
-          <h3>Profesional Art Printing Data</h3>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-          <ul class="skills-details">
-            <li>HTML</li>
-            <li>Bootstrap</li>
-            <li>Ruby</li>
-          </ul>
-        </div>
-        <div class="dark-hover">
-          <button class="project-details btn-pos" type="button">
-            See project
-          </button>
-        </div>
-      </div>
-    </section>
+    <section id="resent-works"></section>
+    <section id="card-section" class="card-section"></section>
     <!-- ----------------------About section----------------->
     <section id="about-section" class="about-section">
       <div class="about-introduction-content">
@@ -362,6 +224,6 @@
         </li>
       </ul>
     </section>
-    <div class="popup"></div>
+    <div id="myPopup" class="popup">
   </body>
 </html>
