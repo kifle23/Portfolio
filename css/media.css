@@ -300,15 +300,12 @@
   .project-details-popup {
     overflow: auto;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    display: none;
-  }
-
-  .popup {
     height: 100vh;
     width: 80.3vw;
-    position: fixed;
-    top: 7rem;
+    top: 3rem;
     right: 7.3rem;
+    position: fixed;
+    display: none;
   }
 
   .tech-list li {
