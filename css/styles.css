@@ -648,7 +648,7 @@ textarea::placeholder {
 .popup {
   height: 105vh;
   width: 95.5vw;
-  position: absolute;
+  position: fixed;
   top: 0;
   padding-left: 2.25vw;
 }

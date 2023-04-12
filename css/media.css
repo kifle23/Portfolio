@@ -306,7 +306,7 @@
   .popup {
     height: 100vh;
     width: 80.3vw;
-    position: absolute;
+    position: fixed;
     top: 7rem;
     right: 7.3rem;
   }
