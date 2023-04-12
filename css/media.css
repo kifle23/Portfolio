@@ -297,16 +297,6 @@
   }
 
   /* =============================================== */
-  .project-details-popup {
-    overflow: hidden;
-    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    height: 100vh;
-    width: 80.3vw;
-    top: 3rem;
-    right: 7.3rem;
-    position: fixed;
-    display: none;
-  }
 
   .tech-list li {
     border: 1px solid #8993a4;
