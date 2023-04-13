@@ -781,6 +781,16 @@ textarea::placeholder {
   font-weight: 700;
 }
 
+.form-deletion-success-msg {
+  color: #fff;
+  background: rgb(41, 116, 112);
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
 .contact-btns {
   list-style: none;
   display: flex;
