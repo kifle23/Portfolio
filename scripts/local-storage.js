@@ -44,8 +44,7 @@ resetForm.addEventListener('click', () => {
     validationMsg.textContent = '';
   }, 3000);
 });
-submitBtn.addEventListener('click', (e) => {
-  e.preventDefault();
+submitBtn.addEventListener('click', () => {
   if (localStorage.contactForm) {
     validationMsg.className = '';
     validationMsg.textContent = 'Form data successfully saved to local storage!';
