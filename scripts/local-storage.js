@@ -33,7 +33,6 @@ messageInput.addEventListener('input', () => {
 resetForm.addEventListener('click', () => {
   validationMsg.className = '';
   if (localStorage.contactForm) {
-    localStorage.clear();
     validationMsg.textContent = 'Form data successfully cleared from local storage!';
     validationMsg.classList.add('form-deletion-success-msg');
   } else {
@@ -44,7 +43,8 @@ resetForm.addEventListener('click', () => {
     validationMsg.textContent = '';
   }, 3000);
 });
-submitBtn.addEventListener('click', () => {
+submitBtn.addEventListener('click', (e) => {
+  e.preventDefault();
   if (localStorage.contactForm) {
     validationMsg.className = '';
     validationMsg.textContent = 'Form data successfully saved to local storage!';
