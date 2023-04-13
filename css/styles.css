@@ -758,7 +758,7 @@ textarea::placeholder {
 .btn-details:disabled {
   border: 1px solid transparent;
   color: #5b5957;
-  background-color: #f4f1f0;
+  background-color: #e9a994;
 }
 
 .form-validation-msg {
@@ -769,4 +769,31 @@ textarea::placeholder {
   line-height: 24px;
   font-size: 17px;
   font-weight: 700;
+}
+
+.form-Submission-success-msg {
+  color: #fff;
+  background: rgb(41, 116, 41);
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.form-deletion-success-msg {
+  color: #fff;
+  background: rgb(41, 116, 112);
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.contact-btns {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
 }
