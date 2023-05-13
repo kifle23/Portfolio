@@ -66,6 +66,10 @@
     padding-top: 5rem;
   }
 
+  .list-style {
+    justify-content: flex-start;
+  }
+
   .headline_section h1 {
     font-size: 72px;
     line-height: 81px;
@@ -262,30 +266,6 @@
     margin-top: 2rem;
   }
 
-  .img-one {
-    background-image: url(../Images/portfolio/card-four.png);
-  }
-
-  .img-2 {
-    background-image: url(../Images/portfolio/card-two.png);
-  }
-
-  .img-3 {
-    background-image: url(../Images/portfolio/card-three.png);
-  }
-
-  .img-4 {
-    background-image: url(../Images/portfolio/card-four.png);
-  }
-
-  .img-5 {
-    background-image: url(../Images/portfolio/card-five.png);
-  }
-
-  .img-6 {
-    background-image: url(../Images/portfolio/card-six.png);
-  }
-
   .btn-contact {
     width: 131px;
     height: 48px;
@@ -310,6 +290,7 @@
 
   .modal-buttons {
     justify-content: flex-start;
+    margin-top: 150px;
   }
 
   .pop-head {

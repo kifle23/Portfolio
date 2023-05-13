@@ -16,14 +16,14 @@ const imgTxtDiv = document.createElement('div');
 imgTxtDiv.classList.add('img-txt');
 
 const image = document.createElement('img');
-image.setAttribute('src', 'Images/portfolio/card-one.svg');
-image.setAttribute('alt', 'yoga');
+image.setAttribute('src', 'Images/portfolio/capstone.png');
+image.setAttribute('alt', 'recent');
 
 const multiDiv = document.createElement('div');
 multiDiv.classList.add('multi');
 
 const multiHeading = document.createElement('h3');
-multiHeading.textContent = 'Multi-Post Stories';
+multiHeading.textContent = 'Software Development Summit';
 
 const multiPara = document.createElement('p');
 multiPara.textContent = `A daily selection of privately personalized reads; no accounts or
@@ -44,16 +44,11 @@ htmlButton.textContent = 'HTML';
 
 const bootstrapButton = document.createElement('button');
 bootstrapButton.setAttribute('type', 'button');
-bootstrapButton.textContent = 'Bootstrap';
-
-const rubyButton = document.createElement('button');
-rubyButton.setAttribute('type', 'button');
-rubyButton.textContent = 'Ruby';
+bootstrapButton.textContent = 'Javascript';
 
 skillsDiv.appendChild(cssButton);
 skillsDiv.appendChild(htmlButton);
 skillsDiv.appendChild(bootstrapButton);
-skillsDiv.appendChild(rubyButton);
 
 const projectButton1 = document.createElement('button');
 projectButton1.setAttribute('id', 'projects-1');
