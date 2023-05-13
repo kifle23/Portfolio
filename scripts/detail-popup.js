@@ -80,7 +80,7 @@ const projects = [
 
 projects.forEach((project) => {
   document.getElementById(
-    'myPopup'
+    'myPopup',
   ).innerHTML = `<div class="project-details-popup">
   <div class="project-details-inner">
       <div class="project-details-header">
@@ -110,26 +110,21 @@ projects.forEach((project) => {
 });
 
 const seeProjects = [];
-projects.forEach((project, index) =>
-  seeProjects.push(document.getElementById(`projects-${index + 1}`))
-);
+projects.forEach((project, index) => seeProjects.push(document.getElementById(`projects-${index + 1}`)));
 let id;
 const techList = document.querySelector('.tech-list');
 seeProjects.forEach((el) => {
   el.addEventListener('click', (e) => {
     id = e.target.id;
-    document.querySelector('.popup-heading').textContent =
-      projects[id.slice(-1) - 1].title;
+    document.querySelector('.popup-heading').textContent = projects[id.slice(-1) - 1].title;
     const techNames = projects[id.slice(-1) - 1].technologyList;
     techNames.forEach((techName) => {
       const li = document.createElement('li');
       li.textContent = techName;
       techList.appendChild(li);
     });
-    document.querySelector('.des').innerHTML =
-      projects[id.slice(-1) - 1].description;
-    document.querySelector('.img-snapshot').src =
-      projects[id.slice(-1) - 1].image;
+    document.querySelector('.des').innerHTML = projects[id.slice(-1) - 1].description;
+    document.querySelector('.img-snapshot').src = projects[id.slice(-1) - 1].image;
     document.querySelector('.live').href = projects[id.slice(-1) - 1].live;
     document.querySelector('.source').href = projects[id.slice(-1) - 1].source;
     document.querySelector('.project-details-popup').classList.toggle('show');
