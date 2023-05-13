@@ -16,7 +16,7 @@ const imgTxtDiv = document.createElement('div');
 imgTxtDiv.classList.add('img-txt');
 
 const image = document.createElement('img');
-image.setAttribute('src', 'Images/portfolio/capstone.png');
+image.setAttribute('src', 'Images/portfolio/capstone.PNG');
 image.setAttribute('alt', 'recent');
 
 const multiDiv = document.createElement('div');
