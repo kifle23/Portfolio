@@ -1,8 +1,20 @@
-const titles = ['Profesional Art Printing Data'];
+const titles = [
+  'Awesome Books',
+  'To Do',
+  'Profesional Art Printing Data',
+  'Profesional Art Printing Data',
+  'Profesional Art Printing Data',
+  'Profesional Art Printing Data',
+];
 const descriptions = [
+  'This project is a simple website that displays a list of books and allows you to add and remove books from that list.',
+  'This is a TodoList web application, where users can add, remove, edit, mark completed, and remove completed todo.',
+  "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+  "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+  "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
   "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
 ];
-const skills = ['HTML', 'Bootstrap', 'Ruby'];
+const skills = ['HTML', 'CSS', 'Javascript'];
 const ids = [
   'projects-2',
   'projects-3',
@@ -21,11 +33,11 @@ ids.forEach((e, i) => {
   hoverContent.appendChild(imgHover);
 
   const h3 = document.createElement('h3');
-  h3.textContent = titles;
+  h3.textContent = titles[i];
   imgHover.appendChild(h3);
 
   const p = document.createElement('p');
-  p.textContent = descriptions;
+  p.textContent = descriptions[i];
   imgHover.appendChild(p);
 
   const ul = document.createElement('ul');
