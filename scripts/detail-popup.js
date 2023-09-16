@@ -1,80 +1,78 @@
 const projects = [
   {
     id: 1,
-    title: 'Software Development Summit',
-    image: 'Images/portfolio/capstone-featured.PNG',
-    description: `<p>On this project I tried to build an online website for a fictional Software Development Summit. The pages are also designed based on Behance design guidelines. Each page is designed to be responsive for all screen sizes.</p>
+    title: 'Property Dealing',
+    image: 'Images/portfolio/internal-5.jpg',
+    description: `<p>Property Dealing App is built using Angular, .net Core, and Bootstrap. It provides a range of features including login and registration, photo upload, and pagination, making it an ideal solution for managing property listings. </p>
       
-    <p>In this project, I build a two-page website using HTML, CSS, and JavaScript. The pages are responsive, meaning they look good on different screen sizes. I did also implement some basic interactions, such as links and a mobile menu.</p>`,
-    technologyList: ['Html', 'CSS', 'Javascript'],
-    live: 'https://kifle23.github.io/capstone-project-one/',
-    source: 'https://github.com/kifle23/capstone-project-one',
+    <p>The application is designed to be user-friendly and responsive, with a clean and modern interface that makes it easy to use.</p>`,
+    technologyList: ['Angular', '.net Core API', 'Bootstrap'],
+    live: 'https://housing-app-ang.web.app/',
+    source: 'https://github.com/kifle23/property-dealing',
   },
   {
     id: 2,
-    title: 'Awesome Books',
-    image: 'Images/portfolio/awsome-books-feature.PNG',
-    description: `<p>This is a simple website that displays a list of books and allows you to add and remove books from that list. The goal is to make it more organized by using modules and practicing the ES6 syntax.</p>
-
-      <p>I used a medium-fidelity wireframe to plan the layout of the pages. This helped me to communicate my design ideas to my partner and to ensure that the pages were well-organized. I also used a version control system (Git) to track my changes and to collaborate with my partner.</p>`,
+    title: 'Software Development Summit',
+    image: 'Images/portfolio/capstone.PNG',
+    description: `<p>On this project I built an online website for a fictional Software Development Summit. The pages are also designed based on Behance design guidelines. Each page is designed to be responsive for all screen sizes.</p>
+      
+    <p>In this project, I build a two-page website using HTML, CSS, and JavaScript. The pages are responsive, meaning they look good on different screen sizes. I did also implement some basic interactions, such as links and a mobile menu.</p>`,
     technologyList: ['Html', 'CSS', 'Javascript'],
-    live: 'https://kifle23.github.io/Awesome-Books-ES6/',
-    source: 'https://github.com/kifle23/Awesome-Books-ES6',
+    live: 'https://kifle23.github.io/software-dev-summit/',
+    source: 'https://github.com/kifle23/software-dev-summit',
   },
   {
     id: 3,
-    title: 'To do',
-    image: 'Images/portfolio/to-do-feature.PNG',
-    description: `<p>This is a TodoList web application, where users can add new todo, remove todo, edit todo, mark todo as completed, and remove all completed todo. Built with Webpack.</p>
-
-      <p>I am proud of the work that I did on this project. I learned a lot about HTML, CSS, and JavaScript, and I also learned how to use a medium-fidelity wireframe and a version control system. I am confident that these skills will be valuable to me in my future career.</p>`,
-    technologyList: ['Html', 'CSS', 'Javascript'],
-    live: 'https://kifle23.github.io/To-Do-list/dist/',
-    source: 'https://github.com/kifle23/To-Do-list',
+    title: 'Quiz App',
+    image: 'Images/portfolio/quiz-app.png',
+    description: '<p>Quiz App is a web application built using React, Context API for state managment, Asp.Net Core API, and Material UI. The Quiz App allows users to take quizzes on a variety of topics, with questions and answers being served from the Asp.Net Core API.</p>',
+    technologyList: ['React', 'Context API for state managment', '.Net Core API', 'Material UI'],
+    live: 'https://github.com/kifle23/quiz-app',
+    source: 'https://github.com/kifle23/quiz-app',
   },
   {
     id: 4,
-    title: 'Card 4',
-    image: 'Images/portfolio/Snapshoot_Portfolio.png',
-    description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
+    title: 'Metrics Webapp',
+    image: 'Images/portfolio/1.svg',
+    description: `<p> This react project is a mobile web application that allows users to check a list of metrics (numeric values) for the weather in different cities. </p>
 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
-    technologyList: ['Html', 'Ruby on Rails', 'Javascript'],
-    live: 'https://kifle23.github.io/Portfolio-setup-and-mobile-first/',
-    source: 'https://github.com/kifle23/Portfolio-setup-and-mobile-first',
+  <p>The application is built using React and Redux, and it has three pages: The Home page displays a list of countries that can be filtered by region. The Cities page displays a list of cities for the selected country. The Details page displays the weather details for the selected city. The application retrieves the weather data from the [OpenWeather](https://openweathermap.org/api) API. Users can filter the list of countries by region and select a country and a city to see the weather details.</p>`,
+    technologyList: ['React', 'Redux', 'CSS'],
+    live: 'https://metrics-webapp-rq4s.onrender.com/',
+    source: 'https://github.com/kifle23/metrics-webapp',
   },
   {
     id: 5,
-    title: 'Card 5',
-    image: 'Images/portfolio/Snapshoot_Portfolio.png',
-    description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
+    title: 'RaKi Book Store',
+    image: 'Images/portfolio/raki-desk.PNG',
+    description: `<p> Rakibook store is an online bookstore that offers a wide variety of books across multiple genres. The store provides a convenient and user-friendly platform for customers to browse and purchase books from the comfort of their homes. </p>
 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
-    technologyList: ['Html', 'Ruby on Rails', 'Javascript'],
-    live: 'https://kifle23.github.io/Portfolio-setup-and-mobile-first/',
-    source: 'https://github.com/kifle23/Portfolio-setup-and-mobile-first',
+  <p> Rakibook store has an extensive collection of books, including bestsellers, new releases, classic literature.</p>`,
+    technologyList: ['Html', 'CSS', 'Javascript'],
+    live: 'https://kifle23.github.io/RaKi-book-store/dist/',
+    source: 'https://github.com/kifle23/RaKi-book-store',
   },
   {
     id: 6,
-    title: 'Card 6',
+    title: 'Blog App',
     image: 'Images/portfolio/Snapshoot_Portfolio.png',
-    description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
+    description: `<p>Discover the blog app website, developed to provide a fully functional online experience. It enables users to explore into a world of enriching content. </p>
 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
-    technologyList: ['Html', 'Ruby on Rails', 'Javascript'],
-    live: 'https://kifle23.github.io/Portfolio-setup-and-mobile-first/',
-    source: 'https://github.com/kifle23/Portfolio-setup-and-mobile-first',
+      <p>Empowering readers to actively engage with the material, by facilitating seamless interaction through the addition of comments and the ability to express appreciation by liking posts.</p>`,
+    technologyList: ['CSS', 'Ruby on Rails', 'Javascript', 'Postgres'],
+    live: 'https://expense-tracker-tv8d.onrender.com/',
+    source: 'https://github.com/kifle23/blog-app',
   },
   {
     id: 7,
-    title: 'Card 7',
-    image: 'Images/portfolio/Snapshoot_Portfolio.png',
-    description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
+    title: 'Expense Tracker',
+    image: 'Images/portfolio/expense1.PNG',
+    description: `<p>The Expense Tracker is a ROR application that provides users with a secure platform to manage their personal finances. </p>
 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
-    technologyList: ['Html', 'Ruby on Rails', 'Javascript'],
-    live: 'https://kifle23.github.io/Portfolio-setup-and-mobile-first/',
-    source: 'https://github.com/kifle23/Portfolio-setup-and-mobile-first',
+      <p>The application allows users to create and track transactions associated with different categories, providing them with a clear overview of their spending habits.</p>`,
+    technologyList: ['Html', 'Ruby on Rails', 'Postgres', 'Bootstrap'],
+    live: 'https://expense-tracker-tv8d.onrender.com/',
+    source: 'https://github.com/kifle23/expense-tracker',
   },
 ];
 

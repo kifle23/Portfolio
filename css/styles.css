@@ -291,11 +291,11 @@ li {
 }
 
 .img-1 {
-  background-image: url(../Images/portfolio/awsome-books.PNG);
+  background-image: url(../Images/portfolio/capstone-featured.PNG);
 }
 
 .img-2 {
-  background-image: url(../Images/portfolio/to-do.PNG);
+  background-image: url(../Images/portfolio/quiz-app-0.jpg);
 }
 
 .img-3 {
@@ -579,6 +579,7 @@ textarea::placeholder {
   font-weight: 700;
   color: #fff;
   background-color: #ff6b00;
+  text-decoration: none;
 }
 
 .my-resume-button:hover {
@@ -722,7 +723,7 @@ textarea::placeholder {
 
 .modal-buttons {
   display: flex;
-  justify-content: space-between;
+  margin-top: 1rem;
   gap: 0 20px;
 }
 

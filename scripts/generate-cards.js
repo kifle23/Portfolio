@@ -1,18 +1,18 @@
 const titles = [
-  'Awesome Books',
-  'To Do',
-  'Profesional Art Printing Data',
-  'Profesional Art Printing Data',
-  'Profesional Art Printing Data',
-  'Profesional Art Printing Data',
+  'Software Dev Summit',
+  '',
+  'Metrics Webapp',
+  'RaKi Book Store',
+  'Blog App',
+  'Expense Tracker',
 ];
 const descriptions = [
-  'This project is a simple website that displays a list of books and allows you to add and remove books from that list.',
-  'This is a TodoList web application, where users can add, remove, edit, mark completed, and remove completed todo.',
-  "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-  "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-  "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-  "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
 ];
 const skills = ['HTML', 'CSS', 'Javascript'];
 const ids = [
