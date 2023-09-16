@@ -288,11 +288,6 @@
     font-family: "Inter", sans-serif;
   }
 
-  .modal-buttons {
-    justify-content: flex-start;
-    margin-top: 150px;
-  }
-
   .pop-head {
     justify-content: space-between;
   }
