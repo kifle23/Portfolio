@@ -9,10 +9,10 @@ const titles = [
 const descriptions = [
   '',
   '',
-  "",
-  "",
-  "",
-  "",
+  '',
+  '',
+  '',
+  '',
 ];
 const skills = ['HTML', 'CSS', 'Javascript'];
 const ids = [

@@ -25,7 +25,7 @@ const projects = [
     id: 3,
     title: 'Quiz App',
     image: 'Images/portfolio/quiz-app.png',
-    description: `<p>Quiz App is a web application built using React, Context API for state managment, Asp.Net Core API, and Material UI. The Quiz App allows users to take quizzes on a variety of topics, with questions and answers being served from the Asp.Net Core API.</p>`,
+    description: '<p>Quiz App is a web application built using React, Context API for state managment, Asp.Net Core API, and Material UI. The Quiz App allows users to take quizzes on a variety of topics, with questions and answers being served from the Asp.Net Core API.</p>',
     technologyList: ['React', 'Context API for state managment', '.Net Core API', 'Material UI'],
     live: 'https://github.com/kifle23/quiz-app',
     source: 'https://github.com/kifle23/quiz-app',
