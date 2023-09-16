@@ -16,35 +16,33 @@ const imgTxtDiv = document.createElement('div');
 imgTxtDiv.classList.add('img-txt');
 
 const image = document.createElement('img');
-image.setAttribute('src', 'Images/portfolio/capstone.PNG');
+image.setAttribute('src', 'Images/portfolio/internal-6.jpg');
 image.setAttribute('alt', 'recent');
 
 const multiDiv = document.createElement('div');
 multiDiv.classList.add('multi');
 
 const multiHeading = document.createElement('h3');
-multiHeading.textContent = 'Software Development Summit';
+multiHeading.textContent = 'Property Dealing';
 
 const multiPara = document.createElement('p');
-multiPara.textContent = `A daily selection of privately personalized reads; no accounts or
-                        sign-ups required. has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a standard
-                        dummy text.`;
+multiPara.textContent = `Property Dealing App is built using Angular, .net Core, and Bootstrap. It provides a range of features including login and registration, photo upload, and pagination, making it an ideal solution for managing property listings.
+The application is designed to be user-friendly and responsive, with a clean and modern interface that makes it easy to use.`;
 
 const skillsDiv = document.createElement('div');
 skillsDiv.classList.add('skills');
 
 const cssButton = document.createElement('button');
 cssButton.setAttribute('type', 'button');
-cssButton.textContent = 'CSS';
+cssButton.textContent = 'Angular';
 
 const htmlButton = document.createElement('button');
 htmlButton.setAttribute('type', 'button');
-htmlButton.textContent = 'HTML';
+htmlButton.textContent = '.net Core API';
 
 const bootstrapButton = document.createElement('button');
 bootstrapButton.setAttribute('type', 'button');
-bootstrapButton.textContent = 'Javascript';
+bootstrapButton.textContent = 'Bootstrap';
 
 skillsDiv.appendChild(cssButton);
 skillsDiv.appendChild(htmlButton);
