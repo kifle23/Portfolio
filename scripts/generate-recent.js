@@ -48,16 +48,19 @@ skillsDiv.appendChild(cssButton);
 skillsDiv.appendChild(htmlButton);
 skillsDiv.appendChild(bootstrapButton);
 
+const span = document.createElement('span');
+span.classList.add('span-3dbutton');
+
 const projectButton1 = document.createElement('button');
 projectButton1.setAttribute('id', 'projects-1');
 projectButton1.setAttribute('type', 'button');
-projectButton1.classList.add('projects');
-projectButton1.textContent = 'See project';
+
+span.appendChild(projectButton1);
 
 multiDiv.appendChild(multiHeading);
 multiDiv.appendChild(multiPara);
 multiDiv.appendChild(skillsDiv);
-multiDiv.appendChild(projectButton1);
+multiDiv.appendChild(span);
 
 imgTxtDiv.appendChild(image);
 imgTxtDiv.appendChild(multiDiv);
