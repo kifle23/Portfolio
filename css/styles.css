@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 * {
   box-sizing: border-box;
   padding: 0;
@@ -824,6 +825,176 @@ textarea::placeholder {
   display: flex;
   align-items: center;
   column-gap: 32px;
+}
+
+.nice-button {
+  font-family: 'Playgram', sans-serif;
+  font-size: 1.2rem;
+  position: relative;
+  display: inline-block;
+  padding: 2vw 3vw; 
+  margin: 2vw 0; 
+  color: rgb(255, 112, 23);
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgba(28, 26, 25, 0);
+  letter-spacing: 0.4vw; 
+  overflow: hidden;
+}
+
+.nice-button:hover {
+  color: #050801;
+  border: none;
+  background: rgb(255, 112, 23);
+  box-shadow:
+    0 0 0.5vw rgb(255, 112, 23),
+    0 0 2.5vw rgb(255, 112, 23),
+    0 0 5vw rgb(255, 112, 23),
+    0 0 20vw rgb(255, 112, 23);
+  -webkit-box-reflect: below 0.1vw linear-gradient(transparent, #0005);
+}
+
+.nice-button-home {
+  color: #050801;
+  background: rgb(255, 112, 23);
+  box-shadow:
+    0 0 0.5vw rgb(255, 112, 23),
+    0 0 2.5vw rgb(255, 112, 23),
+    0 0 5vw rgb(255, 112, 23),
+    0 0 20vw rgb(255, 112, 23);
+  -webkit-box-reflect: below 0.1vw linear-gradient(transparent, #0005);
+}
+
+.nice-button span {
+  position: absolute;
+  display: block;
+}
+
+.nice-button span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgb(255, 112, 23));
+  animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.nice-button span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, rgb(255, 112, 23));
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.nice-button span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, rgb(255, 112, 23));
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.nice-button span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, rgb(255, 112, 23));
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+.span-3dbutton {
+  position: relative;
+  display: inline-flex;
+  perspective: 1000px;
+  font-size: calc(0.2rem + 2vw);
+  margin: 2vw 0;
+}
+
+.span-3dbutton button {
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.span-3dbutton button::before,
+.span-3dbutton button::after {
+  position: absolute;
+  content: 'See project';
+  height: calc(1.4rem + 3vw);
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #ed5b00;
+  background-color: #fff;
+  border: 4px solid rgb(255, 111, 50);
+  transform: rotateY(0deg) translateZ(25px);
+}
+
+.span-3dbutton button::after {
+  color: #fff;
+  background-color: #ed5b00;
+  border: 4px solid rgb(255, 255, 255);
+  transform: rotateX(90deg) translateZ(25px);
+}
+
+.span-3dbutton button:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
 }
 
 ::-webkit-scrollbar {
