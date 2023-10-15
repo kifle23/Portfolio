@@ -372,6 +372,8 @@ li {
   font-weight: bold;
   line-height: 24px;
   font-family: 'Inter', serif;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
 }
 
 .projects:hover {
@@ -951,50 +953,6 @@ textarea::placeholder {
   100% {
     bottom: 100%;
   }
-}
-
-.span-3dbutton {
-  position: relative;
-  display: inline-flex;
-  perspective: 1000px;
-  font-size: calc(0.2rem + 2vw);
-  margin: 2vw 0;
-}
-
-.span-3dbutton button {
-  letter-spacing: 1px;
-  transform-style: preserve-3d;
-  transform: translateZ(-25px);
-  transition: transform 0.25s;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.span-3dbutton button::before,
-.span-3dbutton button::after {
-  position: absolute;
-  content: 'See project';
-  height: calc(1.4rem + 3vw);
-  width: 20vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  border-radius: 10px;
-  color: #ed5b00;
-  background-color: #fff;
-  border: 4px solid rgb(255, 111, 50);
-  transform: rotateY(0deg) translateZ(25px);
-}
-
-.span-3dbutton button::after {
-  color: #fff;
-  background-color: #ed5b00;
-  border: 4px solid rgb(255, 255, 255);
-  transform: rotateX(90deg) translateZ(25px);
-}
-
-.span-3dbutton button:hover {
-  transform: translateZ(-25px) rotateX(-90deg);
 }
 
 ::-webkit-scrollbar {
