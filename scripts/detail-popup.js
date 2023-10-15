@@ -36,7 +36,7 @@ const projects = [
   {
     id: 4,
     title: 'Metrics Webapp',
-    image: 'Images/portfolio/1.svg',
+    image: 'Images/portfolio/weatherdetail.jpg',
     description: `<p> This react project is a mobile web application that allows users to check a list of metrics (numeric values) for the weather in different cities. </p>
 
   <p>The application is built using React and Redux, and it has three pages: The Home page displays a list of countries that can be filtered by region. The Cities page displays a list of cities for the selected country. The Details page displays the weather details for the selected city. The application retrieves the weather data from the [OpenWeather](https://openweathermap.org/api) API. Users can filter the list of countries by region and select a country and a city to see the weather details.</p>`,
