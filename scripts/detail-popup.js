@@ -69,7 +69,7 @@ const projects = [
   {
     id: 7,
     title: 'Expense Tracker',
-    image: 'Images/portfolio/expense1.PNG',
+    image: 'Images/portfolio/expensedetail.jpg',
     description: `<p>The Expense Tracker is a ROR application that provides users with a secure platform to manage their personal finances. </p>
 
       <p>The application allows users to create and track transactions associated with different categories, providing them with a clear overview of their spending habits.</p>`,
