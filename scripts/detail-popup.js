@@ -12,14 +12,17 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Software Development Summit',
-    image: 'Images/portfolio/capstone.PNG',
-    description: `<p>On this project I built an online website for a fictional Software Development Summit. The pages are also designed based on Behance design guidelines. Each page is designed to be responsive for all screen sizes.</p>
+    title: 'Vespa Rental',
+    image: 'Images/portfolio/VespaDetails.png',
+    description: `<p>This project is for reserving motorcycles. Whether you're gearing up for a special occasion or event and need a trendy scooter, or if you own a luxurious Vespa and want to earn extra income by renting it out, our website is your ideal destination.</p>
       
-    <p>In this project, I build a two-page website using HTML, CSS, and JavaScript. The pages are responsive, meaning they look good on different screen sizes. I did also implement some basic interactions, such as links and a mobile menu.</p>`,
-    technologyList: ['Html', 'CSS', 'Javascript'],
-    live: 'https://kifle23.github.io/software-dev-summit/',
-    source: 'https://github.com/kifle23/software-dev-summit',
+    <p>Here are some key advantages of using our platform:<br>
+        - Providing users with comprehensive information about all available motorcycles. <br>
+        - Enabling users to make reservations for a Vespa for their special occasions. <br>
+        - Allowing users to list their own Vespas for rent and manage their listings as needed.</p>`,
+    technologyList: ['React', 'Rails', 'Postgresql'],
+    live: 'https://rent-motorcycles.onrender.com/',
+    source: 'https://github.com/kifle23/vespa-rentals-frontend',
   },
   {
     id: 3,

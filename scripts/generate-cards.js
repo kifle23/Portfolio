@@ -1,6 +1,6 @@
 const titles = [
-  'Software Dev Summit',
-  '',
+  'Vespa Rental',
+  'Quiz App',
   'Metrics Webapp',
   'RaKi Book Store',
   'Blog App',
