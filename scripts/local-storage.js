@@ -34,20 +34,20 @@ resetForm.addEventListener('click', () => {
   validationMsg.className = '';
   if (localStorage.contactForm) {
     localStorage.clear();
-    validationMsg.textContent = 'Form data successfully cleared from local storage!';
+    validationMsg.textContent = 'Form data successfully cleared!';
     validationMsg.classList.add('form-deletion-success-msg');
   } else {
-    validationMsg.textContent = 'Oops, there is no data on local storage please submit data!';
+    validationMsg.textContent = 'Oops, there is no data to be cleared please submit data!';
     validationMsg.classList.add('form-validation-msg');
   }
   setTimeout(() => {
     validationMsg.textContent = '';
-  }, 3000);
+  }, 5000);
 });
 submitBtn.addEventListener('click', () => {
   if (localStorage.contactForm) {
     validationMsg.className = '';
-    validationMsg.textContent = 'Form data successfully saved to local storage!';
+    validationMsg.textContent = 'Thank you for your message. I appreciate your interest and I\'m excited to connect with you! 🙏';
     validationMsg.classList.add('form-Submission-success-msg');
   }
 });

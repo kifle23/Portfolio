@@ -2,24 +2,27 @@ const projects = [
   {
     id: 1,
     title: 'Property Dealing',
-    image: 'Images/portfolio/internal-5.jpg',
+    image: 'Images/portfolio/housing-detail.png',
     description: `<p>Property Dealing App is built using Angular, .net Core, and Bootstrap. It provides a range of features including login and registration, photo upload, and pagination, making it an ideal solution for managing property listings. </p>
       
     <p>The application is designed to be user-friendly and responsive, with a clean and modern interface that makes it easy to use.</p>`,
-    technologyList: ['Angular', '.net Core API', 'Bootstrap'],
+    technologyList: ['Angular', '.net Core API', 'Bootstrap', 'MSSQL'],
     live: 'https://housing-app-ang.web.app/',
     source: 'https://github.com/kifle23/property-dealing',
   },
   {
     id: 2,
-    title: 'Software Development Summit',
-    image: 'Images/portfolio/capstone.PNG',
-    description: `<p>On this project I built an online website for a fictional Software Development Summit. The pages are also designed based on Behance design guidelines. Each page is designed to be responsive for all screen sizes.</p>
+    title: 'Vespa Rental',
+    image: 'Images/portfolio/VespaDetails.png',
+    description: `<p>This project is for reserving motorcycles. Whether you're gearing up for a special occasion or event and need a trendy scooter, or if you own a luxurious Vespa and want to earn extra income by renting it out, our website is your ideal destination.</p>
       
-    <p>In this project, I build a two-page website using HTML, CSS, and JavaScript. The pages are responsive, meaning they look good on different screen sizes. I did also implement some basic interactions, such as links and a mobile menu.</p>`,
-    technologyList: ['Html', 'CSS', 'Javascript'],
-    live: 'https://kifle23.github.io/software-dev-summit/',
-    source: 'https://github.com/kifle23/software-dev-summit',
+    <p>Here are some key advantages of using our platform:<br>
+        - Providing users with comprehensive information about all available motorcycles. <br>
+        - Enabling users to make reservations for a Vespa for their special occasions. <br>
+        - Allowing users to list their own Vespas for rent and manage their listings as needed.</p>`,
+    technologyList: ['React', 'Rails', 'Postgresql'],
+    live: 'https://rent-motorcycles.onrender.com/',
+    source: 'https://github.com/kifle23/vespa-rentals-frontend',
   },
   {
     id: 3,
@@ -27,13 +30,13 @@ const projects = [
     image: 'Images/portfolio/quiz-app.png',
     description: '<p>Quiz App is a web application built using React, Context API for state managment, Asp.Net Core API, and Material UI. The Quiz App allows users to take quizzes on a variety of topics, with questions and answers being served from the Asp.Net Core API.</p>',
     technologyList: ['React', 'Context API for state managment', '.Net Core API', 'Material UI'],
-    live: 'https://github.com/kifle23/quiz-app',
+    live: 'https://quiz-app-2w0q.onrender.com/',
     source: 'https://github.com/kifle23/quiz-app',
   },
   {
     id: 4,
     title: 'Metrics Webapp',
-    image: 'Images/portfolio/1.svg',
+    image: 'Images/portfolio/weatherdetail.jpg',
     description: `<p> This react project is a mobile web application that allows users to check a list of metrics (numeric values) for the weather in different cities. </p>
 
   <p>The application is built using React and Redux, and it has three pages: The Home page displays a list of countries that can be filtered by region. The Cities page displays a list of cities for the selected country. The Details page displays the weather details for the selected city. The application retrieves the weather data from the [OpenWeather](https://openweathermap.org/api) API. Users can filter the list of countries by region and select a country and a city to see the weather details.</p>`,
@@ -54,23 +57,23 @@ const projects = [
   },
   {
     id: 6,
-    title: 'Blog App',
-    image: 'Images/portfolio/Snapshoot_Portfolio.png',
-    description: `<p>Discover the blog app website, developed to provide a fully functional online experience. It enables users to explore into a world of enriching content. </p>
+    title: 'Software Dev Summit',
+    image: 'Images/portfolio/teck-summit-detail.png',
+    description: `<p>Discover the Software Dev Summit website, developed to provide an online experience. It enables users to explore into a world of enriching content. </p>
 
-      <p>Empowering readers to actively engage with the material, by facilitating seamless interaction through the addition of comments and the ability to express appreciation by liking posts.</p>`,
-    technologyList: ['CSS', 'Ruby on Rails', 'Javascript', 'Postgres'],
-    live: 'https://expense-tracker-tv8d.onrender.com/',
-    source: 'https://github.com/kifle23/blog-app',
+      <p>This is an online website for a fictional Software Development Summit. The pages are also designed based on Behance design guidelines. Each page is designed to be responsive for all screen sizes.</p>`,
+    technologyList: ['HTML', 'CSS', 'Javascript'],
+    live: 'https://kifle23.github.io/software-dev-summit/',
+    source: 'https://github.com/kifle23/software-dev-summit',
   },
   {
     id: 7,
     title: 'Expense Tracker',
-    image: 'Images/portfolio/expense1.PNG',
+    image: 'Images/portfolio/expensedetail.jpg',
     description: `<p>The Expense Tracker is a ROR application that provides users with a secure platform to manage their personal finances. </p>
 
       <p>The application allows users to create and track transactions associated with different categories, providing them with a clear overview of their spending habits.</p>`,
-    technologyList: ['Html', 'Ruby on Rails', 'Postgres', 'Bootstrap'],
+    technologyList: ['Ruby on Rails', 'Bootstrap', 'Postgres'],
     live: 'https://expense-tracker-tv8d.onrender.com/',
     source: 'https://github.com/kifle23/expense-tracker',
   },
