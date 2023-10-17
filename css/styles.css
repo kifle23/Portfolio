@@ -28,8 +28,8 @@ header {
   align-items: center;
   flex-direction: row;
   margin-right: 100px;
-  position: fixed; 
-  z-index: 1000;
+  /* position: fixed; 
+  z-index: 1000; */
 }
 
 .rel-pos {
@@ -310,7 +310,7 @@ li {
 }
 
 .img-5 {
-  background-image: url(../Images/portfolio/card-five.png);
+  background-image: url(../Images/portfolio/teck-summit.jpg);
 }
 
 .img-6 {

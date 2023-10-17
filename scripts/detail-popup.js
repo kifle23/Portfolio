@@ -57,14 +57,14 @@ const projects = [
   },
   {
     id: 6,
-    title: 'Blog App',
-    image: 'Images/portfolio/Snapshoot_Portfolio.png',
-    description: `<p>Discover the blog app website, developed to provide a fully functional online experience. It enables users to explore into a world of enriching content. </p>
+    title: 'Software Dev Summit',
+    image: 'Images/portfolio/teck-summit-detail.png',
+    description: `<p>Discover the Software Dev Summit website, developed to provide an online experience. It enables users to explore into a world of enriching content. </p>
 
-      <p>Empowering readers to actively engage with the material, by facilitating seamless interaction through the addition of comments and the ability to express appreciation by liking posts.</p>`,
-    technologyList: ['CSS', 'Ruby on Rails', 'Javascript', 'Postgres'],
-    live: 'https://expense-tracker-tv8d.onrender.com/',
-    source: 'https://github.com/kifle23/blog-app',
+      <p>This is an online website for a fictional Software Development Summit. The pages are also designed based on Behance design guidelines. Each page is designed to be responsive for all screen sizes.</p>`,
+    technologyList: ['HTML', 'CSS', 'Javascript'],
+    live: 'https://kifle23.github.io/software-dev-summit/',
+    source: 'https://github.com/kifle23/software-dev-summit',
   },
   {
     id: 7,

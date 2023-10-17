@@ -3,7 +3,7 @@ const titles = [
   'Quiz App',
   'Metrics Webapp',
   'RaKi Book Store',
-  'Blog App',
+  'Software Dev Summit',
   'Expense Tracker',
 ];
 const descriptions = [
