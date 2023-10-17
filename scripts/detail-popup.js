@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     title: 'Property Dealing',
-    image: 'Images/portfolio/internal-5.jpg',
+    image: 'Images/portfolio/housing-detail.png',
     description: `<p>Property Dealing App is built using Angular, .net Core, and Bootstrap. It provides a range of features including login and registration, photo upload, and pagination, making it an ideal solution for managing property listings. </p>
       
     <p>The application is designed to be user-friendly and responsive, with a clean and modern interface that makes it easy to use.</p>`,
