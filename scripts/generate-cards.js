@@ -14,7 +14,14 @@ const descriptions = [
   '',
   '',
 ];
-const skills = ['HTML', 'CSS', 'Javascript'];
+const skills = [
+  ['React', 'Rails', 'PostgreSQL'],
+  ['React', '.Net', 'Docker'],
+  ['CSS', 'React', 'Redux'],
+  ['HTML', 'CSS', 'Javascript'],
+  ['HTML', 'CSS', 'Javascript'],
+  ['ROR', 'Bootstrap', 'PostgreSQL'],
+];
 const ids = [
   'projects-2',
   'projects-3',
@@ -44,7 +51,7 @@ ids.forEach((e, i) => {
   ul.classList.add('skills-details');
   imgHover.appendChild(ul);
 
-  skills.forEach((skill) => {
+  skills[i].forEach((skill) => {
     const li = document.createElement('li');
     li.textContent = skill;
     ul.appendChild(li);

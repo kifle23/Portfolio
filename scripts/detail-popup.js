@@ -6,7 +6,7 @@ const projects = [
     description: `<p>Property Dealing App is built using Angular, .net Core, and Bootstrap. It provides a range of features including login and registration, photo upload, and pagination, making it an ideal solution for managing property listings. </p>
       
     <p>The application is designed to be user-friendly and responsive, with a clean and modern interface that makes it easy to use.</p>`,
-    technologyList: ['Angular', '.net Core API', 'Bootstrap'],
+    technologyList: ['Angular', '.net Core API', 'Bootstrap', 'MSSQL'],
     live: 'https://housing-app-ang.web.app/',
     source: 'https://github.com/kifle23/property-dealing',
   },
@@ -73,7 +73,7 @@ const projects = [
     description: `<p>The Expense Tracker is a ROR application that provides users with a secure platform to manage their personal finances. </p>
 
       <p>The application allows users to create and track transactions associated with different categories, providing them with a clear overview of their spending habits.</p>`,
-    technologyList: ['Html', 'Ruby on Rails', 'Postgres', 'Bootstrap'],
+    technologyList: ['Ruby on Rails', 'Bootstrap', 'Postgres'],
     live: 'https://expense-tracker-tv8d.onrender.com/',
     source: 'https://github.com/kifle23/expense-tracker',
   },
