@@ -207,7 +207,7 @@ li {
 }
 
 .p {
-  width: 87.2%;
+  width: 100%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -216,6 +216,8 @@ li {
   color: #f4f5f7;
   margin-top: 0;
   margin-bottom: 12px;
+  text-align: left;
+  text-justify: inter-word;
 }
 
 .image-icons-header {
@@ -656,7 +658,9 @@ textarea::placeholder {
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-  width: 55%;
+  width: 100%;
+  text-align: left;
+  text-justify: inter-word;
 }
 
 .list-style {
