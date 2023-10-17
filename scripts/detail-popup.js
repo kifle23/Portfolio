@@ -47,7 +47,7 @@ const projects = [
   {
     id: 5,
     title: 'RaKi Book Store',
-    image: 'Images/portfolio/raki-desk.PNG',
+    image: 'Images/portfolio/raki-desk.png',
     description: `<p> Rakibook store is an online bookstore that offers a wide variety of books across multiple genres. The store provides a convenient and user-friendly platform for customers to browse and purchase books from the comfort of their homes. </p>
 
   <p> Rakibook store has an extensive collection of books, including bestsellers, new releases, classic literature.</p>`,
