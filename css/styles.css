@@ -52,6 +52,9 @@ header {
   align-items: center;
   flex-direction: row;
   margin-right: 100px;
+  position: fixed; 
+  z-index: 1000;
+  transition: transform 0.5s ease;
 }
 
 .rel-pos {
