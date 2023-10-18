@@ -128,8 +128,11 @@ seeProjects.forEach((el) => {
     document.querySelector('.img-snapshot').src = projects[id.slice(-1) - 1].image;
     document.querySelector('.live').href = projects[id.slice(-1) - 1].live;
     document.querySelector('.source').href = projects[id.slice(-1) - 1].source;
+    const headline = document.querySelector('.headline');
+    headline.style.position = 'relative';
+    headline.style.zIndex = '';
     document.querySelector('.project-details-popup').classList.toggle('show');
-    document.getElementById('headline').scrollIntoView();
+    headline.scrollIntoView();
     document
       .querySelector('#close-icon-detail')
       .classList.toggle('close-icon-detail');
@@ -152,4 +155,8 @@ document.querySelector('#close-icon-detail').addEventListener('click', () => {
   techLis.forEach((element) => {
     element.parentNode.removeChild(element);
   });
+
+  const headline = document.querySelector('.headline');
+  headline.style.position = 'fixed';
+  headline.style.zIndex = '1000';
 });
