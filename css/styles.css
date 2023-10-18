@@ -256,6 +256,43 @@ li {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
+  animation: glitch 10s 1 forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@keyframes glitch {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(-5px) rotate(-2deg) skewX(10deg);
+  }
+  20% {
+    transform: translateX(5px) rotate(2deg) skewX(-10deg);
+  }
+  30% {
+    transform: translateX(-5px) rotate(-2deg) skewX(10deg);
+  }
+  40% {
+    transform: translateX(5px) rotate(2deg) skewX(-10deg);
+  }
+  50% {
+    transform: translateX(-5px) rotate(-2deg) skewX(10deg);
+  }
+  60% {
+    transform: translateX(5px) rotate(2deg) skewX(-10deg);
+  }
+  70% {
+    transform: translateX(-5px) rotate(-2deg) skewX(10deg);
+  }
+  80% {
+    transform: translateX(5px) rotate(2deg) skewX(-10deg);
+  }
+  90% {
+    transform: translateX(-5px) rotate(-2deg) skewX(10deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0) skewX(0);
+  }
 }
 
 .h4 {
@@ -293,6 +330,27 @@ li {
   padding: 12px 151px 120px 24px;
   height: 40px;
   gap: 18px;
+}
+
+.image-icons-header li {
+  display: inline-block;
+}
+
+.image-icons-header img {
+  transition: transform 0.3s ease;
+}
+
+.image-icons-header img:hover {
+  animation: rotate 1s linear 0s 1;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* --------------------------- */
