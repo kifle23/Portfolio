@@ -1043,3 +1043,25 @@ textarea::placeholder {
     bottom: 100%;
   }
 }
+
+.slide-in {
+  transition: transform 3s cubic-bezier(0.68, 0.6, 0.87, 1.55);
+  transform: translateX(100%);
+}
+
+.slide-in.active {
+  transform: translateX(0);
+}
+
+.slide-out {
+  transition: transform 1s cubic-bezier(0.68, 0.6, 0.87, 1.55);
+  transform: translateX(0);
+}
+
+.slide-out.active {
+  transform: translateX(-100%);
+}
+
+.menu-item {
+  cursor: pointer;
+}
