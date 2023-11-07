@@ -6,7 +6,7 @@ const projects = [
     description: `<p>Property Dealing App is built using Angular, .net Core, and Bootstrap. It provides a range of features including login and registration, photo upload, and pagination, making it an ideal solution for managing property listings. </p>
       
     <p>The application is designed to be user-friendly and responsive, with a clean and modern interface that makes it easy to use.</p>`,
-    technologyList: ['Angular', '.net Core API', 'Bootstrap', 'MSSQL'],
+    technologyList: ['Angular', '.NET API', 'Bootstrap', 'PostgreSQL', 'Docker'],
     live: 'https://housing-app-ang.web.app/',
     source: 'https://github.com/kifle23/property-dealing',
   },
@@ -20,7 +20,7 @@ const projects = [
         - Providing users with comprehensive information about all available motorcycles. <br>
         - Enabling users to make reservations for a Vespa for their special occasions. <br>
         - Allowing users to list their own Vespas for rent and manage their listings as needed.</p>`,
-    technologyList: ['React', 'Rails', 'Postgresql'],
+    technologyList: ['React', 'Rails API', 'Postgresql'],
     live: 'https://rent-motorcycles.onrender.com/',
     source: 'https://github.com/kifle23/vespa-rentals-frontend',
   },
@@ -28,8 +28,8 @@ const projects = [
     id: 3,
     title: 'Quiz App',
     image: 'Images/portfolio/quiz-app.png',
-    description: '<p>Quiz App is a web application built using React, Context API for state managment, Asp.Net Core API, and Material UI. The Quiz App allows users to take quizzes on a variety of topics, with questions and answers being served from the Asp.Net Core API.</p>',
-    technologyList: ['React', 'Context API for state managment', '.Net Core API', 'Material UI'],
+    description: '<p>Quiz App is a web application built using React, Context API for state managment, Asp.Net Core API, and Material UI. The Quiz App allows users to take quizzes on a variety of topics, with questions and answers being served from the .Net API.</p>',
+    technologyList: ['React', 'Context API for state managment', '.Net API', 'Material UI'],
     live: 'https://quiz-app-2w0q.onrender.com/',
     source: 'https://github.com/kifle23/quiz-app',
   },
