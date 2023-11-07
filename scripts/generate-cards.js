@@ -15,8 +15,8 @@ const descriptions = [
   '',
 ];
 const skills = [
-  ['React', 'Rails', 'PostgreSQL'],
-  ['React', '.Net', 'Docker'],
+  ['React', 'Rails API', 'PostgreSQL'],
+  ['React', '.Net API', 'Docker'],
   ['CSS', 'React', 'Redux'],
   ['HTML', 'CSS', 'Javascript'],
   ['HTML', 'CSS', 'Javascript'],

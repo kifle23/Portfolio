@@ -32,21 +32,26 @@ The application is designed to be user-friendly and responsive, with a clean and
 const skillsDiv = document.createElement('div');
 skillsDiv.classList.add('skills');
 
-const cssButton = document.createElement('button');
-cssButton.setAttribute('type', 'button');
-cssButton.textContent = 'Angular';
+const angularButton = document.createElement('button');
+angularButton.setAttribute('type', 'button');
+angularButton.textContent = 'Angular';
 
-const htmlButton = document.createElement('button');
-htmlButton.setAttribute('type', 'button');
-htmlButton.textContent = '.net Core API';
+const dotnetButton = document.createElement('button');
+dotnetButton.setAttribute('type', 'button');
+dotnetButton.textContent = '.NET API';
 
 const bootstrapButton = document.createElement('button');
 bootstrapButton.setAttribute('type', 'button');
 bootstrapButton.textContent = 'Bootstrap';
 
-skillsDiv.appendChild(cssButton);
-skillsDiv.appendChild(htmlButton);
+const dockerButton = document.createElement('button');
+dockerButton.setAttribute('type', 'button');
+dockerButton.textContent = 'Docker';
+
+skillsDiv.appendChild(angularButton);
+skillsDiv.appendChild(dotnetButton);
 skillsDiv.appendChild(bootstrapButton);
+skillsDiv.appendChild(dockerButton);
 
 const projectButton1 = document.createElement('button');
 projectButton1.setAttribute('id', 'projects-1');
