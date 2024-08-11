@@ -40,7 +40,8 @@
   }
 
   .contact-icon {
-    background: url(../Images/icons/contact-icon.svg) no-repeat center center/cover;
+    background: url(../Images/icons/contact-icon.svg) no-repeat center
+      center/cover;
     width: 22px;
     height: 18px;
     display: block;
@@ -73,38 +74,37 @@
   .headline_section h1 {
     font-size: 72px;
     line-height: 81px;
-    margin-left: 50px;
+    margin-left: 3rem;
   }
 
   .h4 {
     width: 45.3%;
     height: 27px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     text-align: left;
-    color: #fff;
-    margin: 12px 0 12px 50px;
+    color: #ffffffd3;
+    margin: 2rem 3rem;
   }
 
   .p {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1rem;
     line-height: 32px;
-    margin: 12px 0 12px 50px;
+    margin: 2rem 3rem;
     width: 56%;
-    color: #f4f5f7;
-    margin-top: 12px;
+    color: #b4b6ba;
+    text-align: justify;
   }
 
   #resent-works {
-    padding: 0 117px;
+    padding: 0 7.3125rem;
     color: #091e42;
-    margin-top: 5rem;
   }
 
   .line {
@@ -112,7 +112,7 @@
     flex-direction: row;
     color: #091e42;
     align-items: center;
-    margin-bottom: 5rem;
+    margin: 5rem 0;
   }
 
   .line h2 {
@@ -128,7 +128,7 @@
   .img-txt {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 5rem;
   }
 
   .card-section {
@@ -136,8 +136,7 @@
     grid-template-columns: repeat(3, 1fr);
     padding: 0 141px;
     gap: 1rem;
-    margin-top: 24px;
-    margin-bottom: 130px;
+    margin: 3rem 0;
   }
 
   .background-graphic {
@@ -178,8 +177,9 @@
   }
 
   .about-introduction-content p {
-    text-shadow: -1px 1px 1px black;
     width: 70%;
+    color: #b4b6ba;
+    text-align: justify;
   }
 
   .about-myself {
@@ -265,6 +265,7 @@
     background-size: cover;
     background-position: center;
     margin-top: 2rem;
+    border-radius: 0.3rem;
   }
 
   .btn-contact {
@@ -327,3 +328,4 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+

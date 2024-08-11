@@ -1,10 +1,10 @@
 const titles = [
+  'Property Dealing',
   'Vespa Rental',
   'Quiz App',
   'Metrics Webapp',
   'RaKi Book Store',
   'Software Dev Summit',
-  'Expense Tracker',
 ];
 const descriptions = [
   '',
@@ -15,12 +15,12 @@ const descriptions = [
   '',
 ];
 const skills = [
+  ['Angular', '.NET API', 'Docker'],
   ['React', 'Rails API', 'PostgreSQL'],
   ['React', '.Net API', 'Docker'],
   ['CSS', 'React', 'Redux'],
   ['HTML', 'CSS', 'Javascript'],
   ['HTML', 'CSS', 'Javascript'],
-  ['ROR', 'Bootstrap', 'PostgreSQL'],
 ];
 const ids = [
   'projects-2',

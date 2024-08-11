@@ -30,7 +30,6 @@
   <script src="scripts/detail-popup.js" defer></script>
   <script src="scripts/validation-handler.js" defer></script>
   <script src="scripts/local-storage.js" defer></script>
-  <script src="scripts/scroll-menu.js" defer></script>
 </head>
 <body>
   <!-- header section -->
@@ -40,18 +39,18 @@
       <i class="hamburger" alt="icon"></i>
       <nav aria-label="Menu" class="mobile-menu">
         <ul>
-          <li><a class="menu-item" data-target="#resent-works">Portfolio</a></li>
-          <li><a class="menu-item" data-target="#about-section">About</a></li>
-          <li><a class="menu-item" data-target="#contact-detail">Contact</a></li>
+          <li><a href="#resent-works">Portfolio</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#contact-detail">Contact</a></li>
         </ul>
       </nav>
       
       <nav aria-label="Menu" class="main-menu">
         <ul>
-          <li><a class="menu-item" data-target="#resent-works">Portfolio</a></li>
-          <li><a class="menu-item" data-target="#about-section">About</a></li>
-          <li><a class="menu-item" data-target="#contact-detail">Contact</a></li>
-          <li><a class="contact-icon"></a></li>
+          <li><a href="#resent-works">Portfolio</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#contact-detail">Contact</a></li>
+          <li><a class="contact-icon" href="#contact-detail"></a></li>
         </ul>
       </nav>
     </div>
@@ -65,9 +64,8 @@
       </h1>
 
       <h4 class="h4">I'm a Software Developer</h4>
-<!-- <br> -->
       <p class="p">
-        With 10+ years of experience in enterprise applications, proficient in Javascript, React, Angular, Ruby on Rails, Classic NET, .NET Core, and . NET. Skilled in collaboration, pair programming, and remote work. Offering expertise in developing high-quality products and features. Explore my portfolio to see my previous work. Contact me to discuss your coding project and bring your vision to life.
+        I'm passionate about building decentralized applications (dApps) and smart contracts, and I’m particularly fascinated by how Web3 is changing the way we interact with technology. I love working in collaborative environments, whether in-person or remotely. If you're looking for someone who not only knows their way around the latest tech but is genuinely enthusiastic about pushing the boundaries of what’s possible, I’d love to connect. Check out my portfolio to see what I’ve been up to, and let’s talk about how we can turn your ideas into reality.
       </p>
     </div>
 
@@ -90,16 +88,16 @@
       </li>
     </ul>
   </section>
-  <section id="resent-works" class="section"></section>
+  <section id="resent-works"></section>
   <section id="card-section" class="card-section"></section>
   <!-- ----------------------About section----------------->
-  <section id="about-section" class="about-section section">
+  <section id="about-section" class="about-section">
     <div class="about-introduction-content">
       <h1 class="about-heading">About me</h1>
       <p>
         I am a professional full-stack software developer with an MSc in Software Engineering and a Bachelor's degree in Computer Science. Throughout my experiance I have improved  my skills in programming, software architecture, team leadership, project management, problem-solving, architecture design, testing and debugging, code review, and continuous learning.
 
-        With a senior level expertise in .NET development, I have gained valuable experience working with diverse companies, both enhancing my technical and soft skills.
+        With a senior level expertise, I have gained valuable experience working with diverse companies, both enhancing my technical and soft skills.
         
         I have consistently demonstrated effective leadership in requirements gathering, analysis, and documentation, successfully delivering over 40 professional software solutions.
       </p>
@@ -120,10 +118,10 @@
           <h2>Language</h2>
         </div>
         <ul class="about-section-content">
+          <li>Javascript/Typescript</li>
           <li>C#</li>
           <li>Ruby</li>
-          <li>Javascript</li>
-          <li>HTML & Css</li>
+          <li>Solidity</li>
         </ul>
       </div>
       <div class="language-section">
@@ -133,7 +131,6 @@
         </div>
         <ul class="about-section-content">
           <li>.Net</li>
-          <li>.Net Core</li>
           <li>Ruby on Rails</li>
           <li>Angular</li>
         </ul>
@@ -144,10 +141,10 @@
           <h2>Libraries</h2>
         </div>
         <ul class="about-section-content">
-          <li>React.js</li>
+          <li>Reactjs/Nextjs</li>
           <li>Redux</li>
           <li>Axios</li>
-          <li>Bootstrap</li>
+          <li>Bootstrap/Tailwind</li>
         </ul>
       </div>
       <div class="language-section">
@@ -156,15 +153,15 @@
           <h2>Skills</h2>
         </div>
         <ul class="about-section-content">
-          <li>Web Development</li>
-          <li>Database Management</li>
+          <li>Web2/Web3</li>
+          <li>Database</li>
           <li>CI/CD</li>
           <li>Containerization</li>
         </ul>
       </div>
     </div>
   </section>
-  <section id="contact-detail" class="section">
+  <section id="contact-detail">
     <div class="contact-wrapper">
       <div>
         <h2 class="contact-header">

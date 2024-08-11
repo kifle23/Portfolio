@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 ::-webkit-scrollbar {
   width: 5px;
@@ -41,7 +41,6 @@ header {
   flex-direction: column;
 }
 
-/* headline styles */
 .headline {
   height: 72px;
   width: 100%;
@@ -83,10 +82,6 @@ li {
   display: flex;
   flex-direction: column;
   gap: 16px;
-}
-
-.popup-content img {
-  border: 2px inset #eee;
 }
 
 .image-icons-header {
@@ -156,19 +151,15 @@ li {
   padding: 12px;
   font-weight: 700;
   cursor: pointer;
-  border: 0.15em solid  var(--glow-color);
+  border: 0.15em solid var(--glow-color);
   border-radius: 0.45em;
   background-color: var(--glow-color);
   perspective: 2em;
-  -webkit-box-shadow:
-    inset 0 0 0.5em 0  var(--glow-color),
-    0 0 0.5em 0  var(--glow-color);
-  -moz-box-shadow:
-    inset 0 0 0.5em 0  var(--glow-color),
-    0 0 0.5em 0  var(--glow-color);
-  box-shadow:
-    inset 0 0 0.5em 0  var(--glow-color),
-    0 0 0.5em 0  var(--glow-color);
+  -webkit-box-shadow: inset 0 0 0.5em 0 var(--glow-color),
+    0 0 0.5em 0 var(--glow-color);
+  -moz-box-shadow: inset 0 0 0.5em 0 var(--glow-color),
+    0 0 0.5em 0 var(--glow-color);
+  box-shadow: inset 0 0 0.5em 0 var(--glow-color), 0 0 0.5em 0 var(--glow-color);
 }
 
 .btn-details:hover {
@@ -197,7 +188,7 @@ li {
   margin: 12px 2px 22px 13px;
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -280,7 +271,7 @@ li {
 }
 
 .logo {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 1em;
   font-size: 18pt;
@@ -296,7 +287,7 @@ li {
 .h1 {
   color: var(--glow-color);
   width: 87.2%;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -354,47 +345,44 @@ li {
 .h4 {
   width: 87.2%;
   height: 27px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   align-items: center;
-  color: #fff;
+  color: #ffffffd3;
   margin-top: 12px;
   margin-bottom: 12px;
 }
 
 .p {
   width: 100%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  color: #f4f5f7;
+  color: #b4b6ba;
   margin-top: 0;
   margin-bottom: 12px;
   text-align: left;
   text-justify: inter-word;
 }
 
-/* --------------------------- */
 .recent {
   display: flex;
   flex-direction: column;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 0 1.5rem;
 }
 
 .line {
-  margin-bottom: 80px;
-  margin-top: 120px;
+  margin: 2.5rem 0 1rem 0;
 }
 
 .recent h2 {
   position: relative;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 35px;
 }
 
@@ -404,8 +392,9 @@ li {
 
 .recent h3 {
   position: relative;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 30px;
+  margin-top: 1rem;
 }
 
 .recent p {
@@ -418,7 +407,7 @@ li {
   flex-direction: column;
   gap: 1rem;
   align-items: center;
-  margin-bottom: 120px;
+  margin-bottom: 2.5rem;
 }
 
 .cards {
@@ -436,6 +425,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(60%);
+  border-radius: 0.3rem;
 }
 
 .img:hover {
@@ -443,27 +433,27 @@ li {
 }
 
 .img-1 {
-  background-image: url(../Images/portfolio/vespa.png);
+  background-image: url(../Images/portfolio/internal-6.jpg);
 }
 
 .img-2 {
-  background-image: url(../Images/portfolio/quiz-app-0.jpg);
+  background-image: url(../Images/portfolio/vespa.png);
 }
 
 .img-3 {
-  background-image: url(../Images/portfolio/weather.png);
+  background-image: url(../Images/portfolio/quiz-app-0.jpg);
 }
 
 .img-4 {
-  background-image: url(../Images/portfolio/raki-mob.jpg);
+  background-image: url(../Images/portfolio/weather.png);
 }
 
 .img-5 {
-  background-image: url(../Images/portfolio/teck-summit.jpg);
+  background-image: url(../Images/portfolio/raki-mob.jpg);
 }
 
 .img-6 {
-  background-image: url(../Images/portfolio/expense.jpg);
+  background-image: url(../Images/portfolio/teck-summit.jpg);
 }
 
 .cards h3 {
@@ -473,14 +463,14 @@ li {
   padding-left: 16px;
   letter-spacing: 4px;
   text-align: left;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
 
 .cards p {
   position: absolute;
   bottom: 100px;
   text-align: left;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   padding-left: 16px;
 }
 
@@ -492,12 +482,13 @@ li {
 }
 
 .skills button {
-  background: linear-gradient(0deg, #fff, #fff), linear-gradient(0deg, #8993a4, #8993a4);
+  background: linear-gradient(0deg, #fff, #fff),
+    linear-gradient(0deg, #8993a4, #8993a4);
   color: #091e42;
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   margin: 8px;
   padding: 8px;
   border: 1px solid #8993a4;
@@ -518,22 +509,18 @@ li {
   font-size: 17px;
   font-weight: bold;
   line-height: 24px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   color: #f4f1f0;
   cursor: pointer;
-  border: 0.15em solid  var(--glow-color);
+  border: 0.15em solid var(--glow-color);
   border-radius: 0.45em;
   background-color: var(--glow-color);
   perspective: 2em;
-  -webkit-box-shadow:
-    inset 0 0 0.5em 0  var(--glow-color),
-    0 0 0.5em 0  var(--glow-color);
-  -moz-box-shadow:
-    inset 0 0 0.5em 0  var(--glow-color),
-    0 0 0.5em 0  var(--glow-color);
-  box-shadow:
-    inset 0 0 0.5em 0  var(--glow-color),
-    0 0 0.5em 0  var(--glow-color);
+  -webkit-box-shadow: inset 0 0 0.5em 0 var(--glow-color),
+    0 0 0.5em 0 var(--glow-color);
+  -moz-box-shadow: inset 0 0 0.5em 0 var(--glow-color),
+    0 0 0.5em 0 var(--glow-color);
+  box-shadow: inset 0 0 0.5em 0 var(--glow-color), 0 0 0.5em 0 var(--glow-color);
 }
 
 .projects::after {
@@ -548,10 +535,10 @@ li {
   transition: opacity 100ms linear;
   color: #000;
   cursor: pointer;
-  border: 0.15em solid   hsl(186 100% 69%);
+  border: 0.15em solid hsl(186 100% 69%);
   border-radius: 0.45em;
   background-color: hsl(186 100% 69%);
-  box-shadow: 0 0 2em 1em  hsl(186 100% 69%);
+  box-shadow: 0 0 2em 1em hsl(186 100% 69%);
 }
 
 .projects:hover {
@@ -590,20 +577,16 @@ li {
   font-size: 17px;
   font-weight: bold;
   line-height: 24px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   width: 100%;
   cursor: pointer;
   background-color: var(--glow-color);
   perspective: 2em;
-  -webkit-box-shadow:
-    inset 0 0 0.5em 0  var(--glow-color),
-    0 0 0.5em 0  var(--glow-color);
-  -moz-box-shadow:
-    inset 0 0 0.5em 0  var(--glow-color),
-    0 0 0.5em 0  var(--glow-color);
-  box-shadow:
-    inset 0 0 0.5em 0  var(--glow-color),
-    0 0 0.5em 0  var(--glow-color);
+  -webkit-box-shadow: inset 0 0 0.5em 0 var(--glow-color),
+    0 0 0.5em 0 var(--glow-color);
+  -moz-box-shadow: inset 0 0 0.5em 0 var(--glow-color),
+    0 0 0.5em 0 var(--glow-color);
+  box-shadow: inset 0 0 0.5em 0 var(--glow-color), 0 0 0.5em 0 var(--glow-color);
 }
 
 .width-auto {
@@ -628,7 +611,6 @@ li {
   background-color: #f4f1f0;
 }
 
-/* About me Section */
 .about-section {
   padding-bottom: 120px;
   padding-top: 120px;
@@ -673,7 +655,7 @@ li {
 
 .contact-header {
   width: 87.2%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -696,7 +678,7 @@ form {
 }
 
 .contact-wrapper input::placeholder {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -712,7 +694,7 @@ textarea {
 }
 
 textarea::placeholder {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
@@ -759,9 +741,9 @@ textarea::placeholder {
 }
 
 .about-introduction-content {
-  margin: 0 24px;
+  margin: 0 1.5rem 2rem 1.5rem;
   display: flex;
-  gap: 24px;
+  gap: 1.5rem;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
@@ -801,7 +783,7 @@ textarea::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #f4f5f7;
+  color: #b4b6ba;
   width: 100%;
   text-align: left;
   text-justify: inter-word;
@@ -814,7 +796,7 @@ textarea::placeholder {
 }
 
 .list-style h2 {
-  font-family: 'InaiMathi', serif;
+  font-family: "InaiMathi", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -988,7 +970,7 @@ textarea::placeholder {
 }
 
 .nice-button {
-  font-family: 'Playgram', sans-serif;
+  font-family: "Playgram", sans-serif;
   font-size: 1.2rem;
   position: relative;
   display: inline-block;
@@ -1006,22 +988,16 @@ textarea::placeholder {
   color: #050801;
   border: none;
   background: rgb(255, 112, 23);
-  box-shadow:
-    0 0 0.5vw rgb(255, 112, 23),
-    0 0 2.5vw rgb(255, 112, 23),
-    0 0 5vw rgb(255, 112, 23),
-    0 0 20vw rgb(255, 112, 23);
+  box-shadow: 0 0 0.5vw rgb(255, 112, 23), 0 0 2.5vw rgb(255, 112, 23),
+    0 0 5vw rgb(255, 112, 23), 0 0 20vw rgb(255, 112, 23);
   -webkit-box-reflect: below 0.1vw linear-gradient(transparent, #0005);
 }
 
 .nice-button-home {
   color: #050801;
   background: rgb(255, 112, 23);
-  box-shadow:
-    0 0 0.5vw rgb(255, 112, 23),
-    0 0 2.5vw rgb(255, 112, 23),
-    0 0 5vw rgb(255, 112, 23),
-    0 0 20vw rgb(255, 112, 23);
+  box-shadow: 0 0 0.5vw rgb(255, 112, 23), 0 0 2.5vw rgb(255, 112, 23),
+    0 0 5vw rgb(255, 112, 23), 0 0 20vw rgb(255, 112, 23);
   -webkit-box-reflect: below 0.1vw linear-gradient(transparent, #0005);
 }
 
@@ -1113,24 +1089,3 @@ textarea::placeholder {
   }
 }
 
-.slide-in {
-  transition: transform 3s cubic-bezier(0.68, 0.6, 0.87, 1.55);
-  transform: translateX(100%);
-}
-
-.slide-in.active {
-  transform: translateX(0);
-}
-
-.slide-out {
-  transition: transform 1s cubic-bezier(0.68, 0.6, 0.87, 1.55);
-  transform: translateX(0);
-}
-
-.slide-out.active {
-  transform: translateX(-100%);
-}
-
-.menu-item {
-  cursor: pointer;
-}
