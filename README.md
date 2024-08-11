@@ -1,160 +1,80 @@
-# 📗 Table of Contents
+# Portfolio
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+A simple profile website built with basic HTML, CSS, and JavaScript.
 
-<!-- PROJECT DESCRIPTION -->
+## Built With
 
-# 📖 Portfolio <a name="about-project"></a>
+- **HTML**
+- **CSS**
+- **JavaScript**
 
-**Portfolio** is a profile website with basic HTML CSS project.
+## Live Demo
 
-## 🛠 Built With <a name="built-with"></a>
+Check out the live demo: [Portfolio Live](https://kifle23.github.io/Portfolio/)
 
-### Tech Stack <a name="tech-stack"></a>
+## Key Features
 
-<details>
-  <summary>HTML</summary>
-</details>
+- **Mobile-Friendly Design**
+- **GitHub Flow Integration**
+- **HTML/CSS/JavaScript Linting**
 
-<details>
-  <summary>CSS</summary>
-  
-</details>
+## Getting Started
 
-<details>
-<summary>Javascript</summary>
-  
-</details>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://kifle23.github.io/Portfolio-setup-and-mobile-first/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Key Features <a name="key-features"></a>
-
-- **mobile_setup**
-- **github_flow**
-- **linter_for_htmlcss**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps:
 
 ### Prerequisites
 
-In order to run this project you need:
+Ensure you have Git installed:
 
 ```sh
- git init
+git init
 ```
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone the repository:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:kifle23/Portfolio-setup-and-mobile-first.git
+git clone git@github.com:kifle23/Portfolio.git
+cd Portfolio
 ```
 
-### Install
-
-Install this project with:
+### Install Dependencies
 
 ```sh
-  cd my-project
-  git install
+npm install
 ```
 
 ### Usage
 
-To run the project, execute the following command:
+Run the project locally:
 
 ```sh
-  npm start
+npm start
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Author
 
-### Run tests <a name="run-tests"></a>
+👤 **Kifle Haile**
 
-No tests here... 💯
+- LinkedIn: [Kifle Haile](https://www.linkedin.com/in/kifle-haile-5a613761)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Future Features
 
-## 👥 Authors <a name="authors"></a>
+- **Responsive Design**
+- **JavaScript Modular Programming**
+- **Flexbox Layout**
+- **CSS Grid**
 
-👤 **Author1**
+## Contributing
 
-- GitHub: [@kifle23](https://github.com/kifle23)
-- Twitter: [@kifle12](https://twitter.com/KifleHaile12)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kifle-haile-5a613761)
+Contributions, issues, and feature requests are welcome! Check the [issues page](https://github.com/kifle23/Portfolio/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Acknowledgments
 
-<!-- FUTURE FEATURES -->
+Special thanks to Microverse for the guidance and support in building this project.
 
-## 🔭 Future Features <a name="future-features"></a>
+## License
 
-- [ ] **responsive**
-- [ ] **flex-box**
-- [ ] **grid**
+This project is [MIT licensed](./LICENSE).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [https://github.com/kifle23/Portfolio-setup-and-mobile-first/issues](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project, you are welcome to contribute or modify this project. The following link is about the walkthrough of what I learned doing this work, the challenges that I faced and how did I overcome those challenges, and future improvements that I am looking to implement on this project in the near future.
-
-https://www.loom.com/share/2411848b779741c7b27febd3fb40c45e
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Microverse for enabling me to do this capstone project
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
