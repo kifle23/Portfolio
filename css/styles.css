@@ -155,9 +155,11 @@ li {
   border-radius: 0.45em;
   background-color: var(--glow-color);
   perspective: 2em;
-  -webkit-box-shadow: inset 0 0 0.5em 0 var(--glow-color),
+  -webkit-box-shadow:
+    inset 0 0 0.5em 0 var(--glow-color),
     0 0 0.5em 0 var(--glow-color);
-  -moz-box-shadow: inset 0 0 0.5em 0 var(--glow-color),
+  -moz-box-shadow:
+    inset 0 0 0.5em 0 var(--glow-color),
     0 0 0.5em 0 var(--glow-color);
   box-shadow: inset 0 0 0.5em 0 var(--glow-color), 0 0 0.5em 0 var(--glow-color);
 }
@@ -482,7 +484,8 @@ li {
 }
 
 .skills button {
-  background: linear-gradient(0deg, #fff, #fff),
+  background:
+    linear-gradient(0deg, #fff, #fff),
     linear-gradient(0deg, #8993a4, #8993a4);
   color: #091e42;
   font-size: 15px;
@@ -516,9 +519,11 @@ li {
   border-radius: 0.45em;
   background-color: var(--glow-color);
   perspective: 2em;
-  -webkit-box-shadow: inset 0 0 0.5em 0 var(--glow-color),
+  -webkit-box-shadow:
+    inset 0 0 0.5em 0 var(--glow-color),
     0 0 0.5em 0 var(--glow-color);
-  -moz-box-shadow: inset 0 0 0.5em 0 var(--glow-color),
+  -moz-box-shadow:
+    inset 0 0 0.5em 0 var(--glow-color),
     0 0 0.5em 0 var(--glow-color);
   box-shadow: inset 0 0 0.5em 0 var(--glow-color), 0 0 0.5em 0 var(--glow-color);
 }
@@ -582,9 +587,11 @@ li {
   cursor: pointer;
   background-color: var(--glow-color);
   perspective: 2em;
-  -webkit-box-shadow: inset 0 0 0.5em 0 var(--glow-color),
+  -webkit-box-shadow:
+    inset 0 0 0.5em 0 var(--glow-color),
     0 0 0.5em 0 var(--glow-color);
-  -moz-box-shadow: inset 0 0 0.5em 0 var(--glow-color),
+  -moz-box-shadow:
+    inset 0 0 0.5em 0 var(--glow-color),
     0 0 0.5em 0 var(--glow-color);
   box-shadow: inset 0 0 0.5em 0 var(--glow-color), 0 0 0.5em 0 var(--glow-color);
 }
@@ -988,16 +995,22 @@ textarea::placeholder {
   color: #050801;
   border: none;
   background: rgb(255, 112, 23);
-  box-shadow: 0 0 0.5vw rgb(255, 112, 23), 0 0 2.5vw rgb(255, 112, 23),
-    0 0 5vw rgb(255, 112, 23), 0 0 20vw rgb(255, 112, 23);
+  box-shadow:
+    0 0 0.5vw rgb(255, 112, 23),
+    0 0 2.5vw rgb(255, 112, 23),
+    0 0 5vw rgb(255, 112, 23),
+    0 0 20vw rgb(255, 112, 23);
   -webkit-box-reflect: below 0.1vw linear-gradient(transparent, #0005);
 }
 
 .nice-button-home {
   color: #050801;
   background: rgb(255, 112, 23);
-  box-shadow: 0 0 0.5vw rgb(255, 112, 23), 0 0 2.5vw rgb(255, 112, 23),
-    0 0 5vw rgb(255, 112, 23), 0 0 20vw rgb(255, 112, 23);
+  box-shadow:
+    0 0 0.5vw rgb(255, 112, 23),
+    0 0 2.5vw rgb(255, 112, 23),
+    0 0 5vw rgb(255, 112, 23),
+    0 0 20vw rgb(255, 112, 23);
   -webkit-box-reflect: below 0.1vw linear-gradient(transparent, #0005);
 }
 
@@ -1088,4 +1101,3 @@ textarea::placeholder {
     bottom: 100%;
   }
 }
-
