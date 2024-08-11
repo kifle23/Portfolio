@@ -16,42 +16,40 @@ const imgTxtDiv = document.createElement('div');
 imgTxtDiv.classList.add('img-txt');
 
 const image = document.createElement('img');
-image.setAttribute('src', 'Images/portfolio/internal-6.jpg');
+image.setAttribute('src', 'Images/portfolio/mediumScreen.png');
 image.setAttribute('alt', 'recent');
 
 const multiDiv = document.createElement('div');
 multiDiv.classList.add('multi');
 
 const multiHeading = document.createElement('h3');
-multiHeading.textContent = 'Property Dealing';
+multiHeading.textContent = 'Course Marketplace ETH';
 
 const multiPara = document.createElement('p');
-multiPara.textContent = `Property Dealing App is built using Angular, .net Core, and Bootstrap. It provides a range of features including login and registration, photo upload, and pagination, making it an ideal solution for managing property listings.
-The application is designed to be user-friendly and responsive, with a clean and modern interface that makes it easy to use.`;
+multiPara.innerHTML = `
+  <p style="padding-bottom: 1rem; text-align: justify;">This decentralized application (dApp) is built on the Ethereum blockchain, enabling users to purchase, manage, and verify ownership of courses. It leverages smart contracts to handle course purchases, repurchases, and ownership verification.</p>
+  <p style="padding-bottom: 1rem; text-align: justify;">A live demo of the application is available here. You can explore the features of the course-marketplace-eth application, including purchasing courses, verifying ownership, and managing courses as an admin.</p>
+  <p style="text-align: justify;">The application is designed to be user-friendly and responsive, with a clean and modern interface that makes it easy to use.</p>
+`;
 
 const skillsDiv = document.createElement('div');
 skillsDiv.classList.add('skills');
 
-const angularButton = document.createElement('button');
-angularButton.setAttribute('type', 'button');
-angularButton.textContent = 'Angular';
+const reactButton = document.createElement('button');
+reactButton.setAttribute('type', 'button');
+reactButton.textContent = 'React/Next.js';
 
-const dotnetButton = document.createElement('button');
-dotnetButton.setAttribute('type', 'button');
-dotnetButton.textContent = '.NET API';
+const ethereumButton = document.createElement('button');
+ethereumButton.setAttribute('type', 'button');
+ethereumButton.textContent = 'Ethereum';
 
-const bootstrapButton = document.createElement('button');
-bootstrapButton.setAttribute('type', 'button');
-bootstrapButton.textContent = 'Bootstrap';
+const solidityButton = document.createElement('button');
+solidityButton.setAttribute('type', 'button');
+solidityButton.textContent = 'Solidity';
 
-const dockerButton = document.createElement('button');
-dockerButton.setAttribute('type', 'button');
-dockerButton.textContent = 'Docker';
-
-skillsDiv.appendChild(angularButton);
-skillsDiv.appendChild(dotnetButton);
-skillsDiv.appendChild(bootstrapButton);
-skillsDiv.appendChild(dockerButton);
+skillsDiv.appendChild(reactButton);
+skillsDiv.appendChild(ethereumButton);
+skillsDiv.appendChild(solidityButton);
 
 const projectButton1 = document.createElement('button');
 projectButton1.setAttribute('id', 'projects-1');
