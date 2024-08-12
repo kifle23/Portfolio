@@ -68,10 +68,6 @@
     padding-top: 5rem;
   }
 
-  .list-style {
-    justify-content: flex-start;
-  }
-
   .headline_section h1 {
     font-size: 72px;
     line-height: 81px;
@@ -103,119 +99,12 @@
     text-align: justify;
   }
 
-  #resent-works {
-    padding: 0 7.3125rem;
-    color: #091e42;
-  }
-
-  .line {
-    display: flex;
-    flex-direction: row;
-    color: #091e42;
-    align-items: center;
-    margin: 5rem 0;
-  }
-
-  .line h2 {
-    min-width: 300px;
-  }
-
-  .line hr {
-    height: 2px;
-    background-color: #091e42;
-    width: 100%;
-  }
-
-  .img-txt {
-    display: flex;
-    flex-direction: row;
-    gap: 5rem;
-  }
-
   .card-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 0 141px;
     gap: 1rem;
     margin: 3rem 0;
-  }
-
-  .background-graphic {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(../Images/desktop-about.png) no-repeat;
-    background-size: 45vw 40vh;
-    background-position: right top;
-  }
-
-  .horizontal-seperator-on-dark {
-    margin-top: 157px;
-    width: 80%;
-    align-self: center;
-  }
-
-  #about-section {
-    overflow: hidden;
-    background: #262626;
-  }
-
-  .about-heading {
-    align-self: flex-start;
-  }
-
-  .about-introduction {
-    z-index: 1;
-  }
-
-  .about-introduction-content {
-    width: 60%;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 142px;
-    gap: 1rem 10rem;
-    z-index: 1;
-  }
-
-  .about-introduction-content p {
-    width: 70%;
-    color: #b4b6ba;
-    text-align: justify;
-  }
-
-  .about-myself {
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 142px;
-    gap: 0 7rem;
-    z-index: 1;
-  }
-
-  .about-section-content {
-    align-items: flex-start;
-  }
-
-  .contact-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 0 24px;
-    padding-left: 142px;
-    padding-right: 142px;
-  }
-
-  #contact-me h2 {
-    margin: 0;
-    text-align: left;
-    font-size: 40px;
-    line-height: 55px;
-  }
-
-  #contact-me {
-    padding-top: 130px;
-  }
-
-  form ul .btn {
-    align-self: flex-start;
   }
 
   .image-icons-footer {
@@ -225,10 +114,6 @@
     width: 100%;
     height: 40px;
     gap: 18px;
-  }
-
-  .contact-header {
-    text-align: start;
   }
 
   .btn-pos {
@@ -321,6 +206,123 @@
     font-size: 16px;
     line-height: 30px;
     color: #344563;
+  }
+}
+
+@media screen and (min-width: 1099px) {
+  #resent-works {
+    padding: 0 7.3125rem;
+    color: #091e42;
+  }
+
+  .line {
+    display: flex;
+    flex-direction: row;
+    color: #091e42;
+    align-items: center;
+    margin: 5rem 0;
+  }
+
+  .line h2 {
+    min-width: 300px;
+  }
+
+  .line hr {
+    height: 2px;
+    background-color: #091e42;
+    width: 100%;
+  }
+
+  .img-txt {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  .background-graphic {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../Images/desktop-about.png) no-repeat;
+    background-size: 45vw 40vh;
+    background-position: right top;
+  }
+
+  .horizontal-seperator-on-dark {
+    margin-top: 157px;
+    width: 80%;
+    align-self: center;
+  }
+
+  #about-section {
+    overflow: hidden;
+    background: #262626;
+  }
+
+  .about-heading {
+    align-self: flex-start;
+  }
+
+  .about-introduction {
+    z-index: 1;
+  }
+
+  .about-introduction-content {
+    width: 60%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 142px;
+    gap: 1rem 10rem;
+    z-index: 1;
+  }
+
+  .about-introduction-content p {
+    width: 70%;
+    color: #b4b6ba;
+    text-align: justify;
+  }
+
+  .about-myself {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 142px;
+    gap: 0 7rem;
+    z-index: 1;
+  }
+
+  .list-style {
+    justify-content: flex-start;
+  }
+
+  .about-section-content {
+    align-items: flex-start;
+  }
+
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0 24px;
+    padding-left: 142px;
+    padding-right: 142px;
+  }
+
+  .contact-header {
+    text-align: start;
+  }
+
+  #contact-me h2 {
+    margin: 0;
+    text-align: left;
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  #contact-me {
+    padding-top: 130px;
+  }
+
+  form ul .btn {
+    align-self: flex-start;
   }
 }
 
